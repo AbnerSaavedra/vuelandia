@@ -1,0 +1,349 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Vuelandia</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet"/>
+	<link href="css/lh-style.css" rel="stylesheet"/>
+	<link href="css/fs-style.css" rel="stylesheet"/>
+	<link href="fonts.css"  rel="stylesheet"/>
+	<link href="css/animate.css" rel="stylesheet" />
+	<link href="style.css"  rel="stylesheet"/>
+	<link href="responsive.css" rel="stylesheet"/>
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+<meta name="viewport" content="width=device-width, user-scalable=no">
+<link rel="stylesheet" href="style.css">
+	
+</head>
+
+<body>
+	<div id="fog"></div>
+	<div class="wrap"></div>
+	<div class="content">
+		<div class="header">
+			<div class="conainter">
+				<div class="row">
+					<div class="col col-6">
+						<a href="http://www.plan-d.es/dev/vuelandia/" class="logo animation fadeInLeft" data-animation-offset="100" ></a>
+					</div>
+					<div class="col col-6">
+						<a href="" class=" login button bold fs12">LOGIN</a>
+						<a href="" class="menu"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="conainter" style="min-width: 100%;">
+			<div class="row">
+				<div class="col col-12 ">
+					<h1 class="fs86 lh72 thin animation fadeInUp" data-animation-offset="100" >flights</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col offset-sm-1 col-sm-10 ">
+					<div class="tabpanel ">
+						<div class="title d-flex">
+						<div class="active regular fs18">ida y vuelta <i></i></div>
+						<div class="regular fs18">solo ida <i></i></div>
+						<div class="regular fs18">múltiple itinerario <i></i></div>
+						</div>
+						<div class="tab">
+							<div class="row">
+								<div class="col col-lg-6 col-md-12 col-12">
+									<input type="text" placeholder="Salida desde..." onFocus="$('.input-list').addClass('active');" onblur="$('.input-list').removeClass('active');" class="salida regular fs16">
+									<div class="input-list">
+										<div class="item flight fs15 regular">
+											Amsterdam - Schniphol (AMS), Países Bajos
+										</div>
+										<div class="label fs18 bold">Mostrar en el mapa</div>
+										<div class="item world fs15 regular">
+											Amsterdam - Schniphol (AMS), Países Bajos
+										</div>
+										<div class="item world fs15 regular">
+											Amsterdam - Schniphol (AMS), Países Bajos
+										</div>
+										<div class="item world fs15 regular">
+											Amsterdam - Schniphol (AMS), Países Bajos
+										</div>		
+									</div>
+								</div>
+								<div class="col col-lg-6 col-md-12 col-12">
+									<input type="text" placeholder="Llegada a..." class="llegada regular fs16">
+								</div>
+							</div>
+							<div class="row">
+								<div class="col col-lg-6 col-md-12 col-12">
+									<div class="d-flex">
+										<div class="regular w-25 fs16 lh41">Fecha de salida</div>
+										<div class="ml-3 w-50">
+											<input type="text" onFocus="$('.date-multiple').addClass('active');" onBlur="$('.date-multiple').removeClass('active');" placeholder="00 / 00 / 0000" class="fecha regular fs16">
+											<div class="date-multiple">
+												<div class="dot"></div>
+												<div class="data">
+													<div class="label fs18 bold">Seleccionar fecha</div>
+													<div class="close"></div>
+													<div class="row">
+														<div class="col col-6">
+															<div class="month">
+																<a onClick="return false;" class="prev" href=""></a>
+																<div class="month-title float-right bold fs15 text-uppercase">Enero 2020</div>
+																<div class="clearfix"></div>
+															</div>
+															<div class="calendar">
+																<div class="dw bold fs14">L</div>
+																<div class="dw bold fs14">M</div>
+																<div class="dw bold fs14">X</div>
+																<div class="dw bold fs14">J</div>
+																<div class="dw bold fs14">V</div>
+																<div class="dw bold fs14">S</div>
+																<div class="dw bold fs14">S</div>
+																<div class="days">
+																	<a onClick="return false;" class="bold fs14" href="">1</a>
+																	<a onClick="return false;" class="bold fs14" href="">2</a>
+																	<a onClick="return false;" class="bold fs14" href="">3</a>
+																	<a onClick="return false;" class="bold fs14" href="">4</a>
+																	<a onClick="return false;" class="bold fs14" href="">5</a>
+																	<a onClick="return false;" class="bold fs14" href="">6</a>
+																	<a onClick="return false;" class="bold fs14" href="">7</a>
+																	<a onClick="return false;" class="bold fs14" href="">8</a>
+																	<a onClick="return false;" class="bold fs14" href="">9</a>
+																	<a onClick="return false;" class="bold fs14" href="">10</a>
+																	<a onClick="return false;" class="bold fs14" href="">12</a>
+																	<a onClick="return false;" class="bold fs14" href="">13</a>
+																	<a onClick="return false;" class="bold fs14" href="">14</a>
+																	<a onClick="return false;" class="bold fs14" href="">15</a>
+																	<a onClick="return false;" class="bold fs14" href="">16</a>
+																	<a onClick="return false;" class="bold fs14" href="">17</a>
+																	<a onClick="return false;" class="bold fs14 active" href="">18</a>
+																	<a onClick="return false;" class="bold fs14 active" href="">19</a>
+																	<a onClick="return false;" class="bold fs14 active" href="">20</a>
+																	<a onClick="return false;" class="bold fs14" href="">21</a>
+																	<a onClick="return false;" class="bold fs14" href="">22</a>
+																	<a onClick="return false;" class="bold fs14" href="">23</a>
+																	<a onClick="return false;" class="bold fs14" href="">24</a>
+																	<a onClick="return false;" class="bold fs14" href="">25</a>
+																	<a onClick="return false;" class="bold fs14" href="">26</a>
+																	<a onClick="return false;" class="bold fs14" href="">27</a>
+																	<a onClick="return false;" class="bold fs14" href="">28</a>
+																	<a onClick="return false;" class="bold fs14" href="">29</a>
+																	<a onClick="return false;" class="bold fs14" href="">30</a>
+																	<a onClick="return false;" class="bold fs14" href="">31</a>
+																	<a onClick="return false;" class="bold fs14" href="">1</a>
+																	<a onClick="return false;" class="bold fs14" href="">2</a>
+																	<a onClick="return false;" class="bold fs14" href="">3</a>
+																	<a onClick="return false;" class="bold fs14" href="">4</a>
+																</div>
+															</div>
+														</div>
+														<div class="col col-6">
+															<div class="month">
+																<div class="month-title bold fs15 text-uppercase">Febrero 2020</div>
+																<a onClick="return false;" class="next" href=""></a>
+																<div class="clearfix"></div>
+															</div>
+															<div class="calendar">
+																<div class="dw bold fs14">L</div>
+																<div class="dw bold fs14">M</div>
+																<div class="dw bold fs14">X</div>
+																<div class="dw bold fs14">J</div>
+																<div class="dw bold fs14">V</div>
+																<div class="dw bold fs14">S</div>
+																<div class="dw bold fs14">S</div>
+																<div class="days">
+																	<a onClick="return false;" class="bold fs14" href="">1</a>
+																	<a onClick="return false;" class="bold fs14" href="">2</a>
+																	<a onClick="return false;" class="bold fs14" href="">3</a>
+																	<a onClick="return false;" class="bold fs14" href="">4</a>
+																	<a onClick="return false;" class="bold fs14" href="">5</a>
+																	<a onClick="return false;" class="bold fs14" href="">6</a>
+																	<a onClick="return false;" class="bold fs14" href="">7</a>
+																	<a onClick="return false;" class="bold fs14" href="">8</a>
+																	<a onClick="return false;" class="bold fs14" href="">9</a>
+																	<a onClick="return false;" class="bold fs14" href="">10</a>
+																	<a onClick="return false;" class="bold fs14" href="">12</a>
+																	<a onClick="return false;" class="bold fs14" href="">13</a>
+																	<a onClick="return false;" class="bold fs14" href="">14</a>
+																	<a onClick="return false;" class="bold fs14" href="">15</a>
+																	<a onClick="return false;" class="bold fs14" href="">16</a>
+																	<a onClick="return false;" class="bold fs14" href="">17</a>
+																	<a onClick="return false;" class="bold fs14 active" href="">18</a>
+																	<a onClick="return false;" class="bold fs14 active" href="">19</a>
+																	<a onClick="return false;" class="bold fs14 active" href="">20</a>
+																	<a onClick="return false;" class="bold fs14" href="">21</a>
+																	<a onClick="return false;" class="bold fs14" href="">22</a>
+																	<a onClick="return false;" class="bold fs14" href="">23</a>
+																	<a onClick="return false;" class="bold fs14" href="">24</a>
+																	<a onClick="return false;" class="bold fs14" href="">25</a>
+																	<a onClick="return false;" class="bold fs14" href="">26</a>
+																	<a onClick="return false;" class="bold fs14" href="">27</a>
+																	<a onClick="return false;" class="bold fs14" href="">28</a>
+																	<a onClick="return false;" class="bold fs14" href="">29</a>
+																	<a onClick="return false;" class="bold fs14" href="">30</a>
+																	<a onClick="return false;" class="bold fs14" href="">31</a>
+																	<a onClick="return false;" class="bold fs14" href="">1</a>
+																	<a onClick="return false;" class="bold fs14" href="">2</a>
+																	<a onClick="return false;" class="bold fs14" href="">3</a>
+																	<a onClick="return false;" class="bold fs14" href="">4</a>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+
+										
+										</div>
+										<div class="ml-3 w-25"><input type="text" placeholder="00 : 00" class="hora regular fs16"></div>
+									</div>
+								</div>
+								<div class="col col-lg-6 col-md-12 col-12">
+									<div class="d-flex">
+										<div class="regular w-25 fs16 lh41">Fecha de llegada</div>
+										<div class="ml-3 w-50">
+											<input type="text" onFocus="$('.date-single').addClass('active');"   placeholder="00 / 00 / 0000" class="fecha regular fs16">
+											<div class="date-single">
+												<div onclick="$(this).toggleClass('active')" class="checkbox active regular fs16 mb-1  ">Cualquier hora</div>
+												<div class="calendar">
+													<div class="days">
+														<a onClick="return false;" class="bold fs14" href="">2</a>
+														<a onClick="return false;" class="bold fs14" href="">3</a>
+														<a onClick="return false;" class="bold fs14" href="">4</a>
+														<a onClick="return false;" class="bold fs14" href="">5</a>
+														<a onClick="return false;" class="bold fs14" href="">6</a>
+														<a onClick="return false;" class="bold fs14" href="">7</a>
+														<a onClick="return false;" class="bold fs14" href="">8</a>
+														<a onClick="return false;" class="bold fs14" href="">9</a>
+														<a onClick="return false;" class="bold fs14" href="">10</a>
+														<a onClick="return false;" class="bold fs14" href="">12</a>
+														<a onClick="return false;" class="bold fs14" href="">13</a>
+														<a onClick="return false;" class="bold fs14" href="">14</a>
+														<a onClick="return false;" class="bold fs14" href="">15</a>
+														<a onClick="return false;" class="bold fs14" href="">16</a>
+														<a onClick="return false;" class="bold fs14" href="">17</a>
+														<a onClick="return false;" class="bold fs14" href="">18</a>
+														<a onClick="return false;" class="bold fs14" href="">19</a>
+														<a onClick="return false;" class="bold fs14" href="">20</a>
+														<a onClick="return false;" class="bold fs14" href="">21</a>
+														<a onClick="return false;" class="bold fs14" href="">22</a>
+														<a onClick="return false;" class="bold fs14" href="">23</a>
+														<a onClick="return false;" class="bold fs14" href="">24</a>
+														<a onClick="return false;" class="bold fs14" href="">25</a>
+														<a onClick="return false;" class="bold fs14" href="">26</a>
+														<a onClick="return false;" class="bold fs14" href="">27</a>
+														<a onClick="return false;" class="bold fs14" href="">28</a>
+													</div>												
+												</div>
+												<a href="" onClick="$('.date-single').removeClass('active'); return false;" class="button confirm mb-0 regular fs16" >CONFIRMAR</a>
+											</div>
+										</div>
+										<div class="ml-3 w-25"><input type="text" placeholder="00 : 00" class="hora regular fs16"></div>
+									</div>
+									
+								</div>
+							</div>
+							<div class="row">
+								<div class="col col-lg-4  col-md-6 col-12">
+									<div class="d-flex">
+										<div class="regular  fs16 lh41">Adultos (+12)</div>
+										<div class="ml-auto d-flex">
+											<a class="button counter" href="">-</a>
+											<input type="text" placeholder="1" class="number regular fs16">
+											<a class="button counter mr-0" href="">+</a>
+										</div>
+									</div>
+								</div>
+								<div class="col col-lg-4  col-md-6 col-12">
+									<div class="d-flex">
+										<div class="regular  fs16 lh41">Niños (2-11)</div>
+										<div class="ml-auto d-flex">
+											<a class="button counter" href="">-</a>
+											<input type="text" placeholder="1" class="number regular fs16">
+											<a class="button counter mr-0" href="">+</a>
+										</div>
+									</div>
+								</div>
+								<div class="col col-lg-4  col-md-6 col-12">
+									<div class="d-flex">
+										<div class="regular  fs16 lh41">Bebes (0-1)</div>
+										<div class="ml-auto d-flex">
+											<a class="button counter" href="">-</a>
+											<input type="text" placeholder="1" class="number regular fs16">
+											<a class="button counter mr-0" href="">+</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							<div class="row">
+								<div class="col col-sm-12 col-12">
+									<input type="text" placeholder="Comapñias aereas..." class="salida regular">
+								</div>
+							</div>
+							
+							<div class="row">
+								<div class="col col-lg-3  col-md-6 col-12 ">
+									<select class="regular fs16"><option>Flight class...</option></select>
+								</div>
+									<div class="col col-lg-3  col-md-6 col-12">
+									<select class="regular fs16"><option>Flight class...</option></select>
+								</div>
+									<div class="col col-lg-6 col-md-12 col-12">
+									<select class="regular fs16"><option>Tipo de conexión...</option></select>
+								</div>
+							
+							</div>
+							
+							<div class="row">
+								<div class="col col-lg-4 col-md-6 col-12">
+									<div onClick="$(this).toggleClass('active')" class="checkbox active regular fs16">+/- 3 días...</div>
+								</div>
+									<div class="col col-lg-4 col-md-6 col-12">
+									<div onClick="$(this).toggleClass('active')" class="checkbox regular fs16">Vuelo directo</div>
+								</div>
+									<div class="col col-lg-4 col-md-6 col-12">
+									<div onClick="$(this).toggleClass('active')" class="checkbox regular fs16">Reembolsable</div>
+								</div>
+							
+							</div>
+							
+							<div class="row">
+								<div class="col col-lg-4 col-md-6 col-12">
+									<div onClick="$(this).toggleClass('active')" class="button reset mb-0 regular fs16">RESETEAR BÚSQUEDA</div>
+								</div>
+									<div class="col col-lg-4 d-block d-sm-none col-md-4 col-12">&nbsp;
+								</div>
+									<div class="col col-lg-4 col-md-6 col-12">
+									<a href="buscador-02.html" onClick="$(this).toggleClass('active')" class="button search mb-0 regular fs16">BUSCAR VUELOS</a>
+								</div>
+							
+							</div>
+							
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		<div class="copyright">
+			<div class="container">
+				<div class="row">
+					<div class="col col-md-10 col-12">
+						<span class="regular fs12 lh32">© 2019 Vuelandia. All Rights Reserved</span>      <a class="regular lnk fs12 lh32" href="">Terms and conditions<i></i></a>      <a class="regular lnk fs12 lh32" href="">Privacy statement<i></i></a>
+					</div>
+					<div class="col col-md-2">
+						<div class="social">
+							<a href="" title="Facebook" class="facebook"></a>
+							<a href="" title="Twitter" class="twitter"></a>
+							<a href="" title="Google +" class="google"></a>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</div>
+<script type="text/javascript" src="js/jquery/animation.js"></script>
+<script>
+    new ANIMATION().init();
+</script>
+</body>
+</html>

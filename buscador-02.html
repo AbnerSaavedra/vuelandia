@@ -1,0 +1,502 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Vuelandia</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet"/>
+	<link href="css/lh-style.css" rel="stylesheet"/>
+	<link href="css/fs-style.css" rel="stylesheet"/>
+	<link href="fonts.css"  rel="stylesheet"/>
+	<link href="css/animate.css" rel="stylesheet" />
+	<link href="style.css"  rel="stylesheet"/>
+	<link href="responsive.css" rel="stylesheet"/>
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+	
+</head>
+
+<body>
+	<div id="fog"></div>
+	<div class="content page">
+		<div class="header">
+			<div class="conainter">
+				<div class="row">
+					<div class="col col-6">
+						<a href="" class="logo animation fadeInLeft" data-animation-offset="100" ></a>
+					</div>
+					<div class="col col-6">
+						<a href="" class=" login button bold fs12">LOGIN</a>
+						<a href="" class="menu"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="conainter" style="min-width: 100%;">
+			
+			<div class="row mt-5 mb-0">
+				<div class="col active offset-sm-1 col-sm-10 col-12">
+					<div class="d-flex no-flex align-items-center">
+						<h1 class="fs40 lh72 thin animation fadeInUp" data-animation-offset="100" >flights</h1>
+						<div class="box-resume bold fs16 ml-4 d-flex no-flex flex-nowrap align-items-center">
+							<div class="w-25">Málaga</div>
+							<div class="w-25">Madrid</div>
+							<div class="regular">
+							<input type="text" placeholder="00 / 00 / 0000" class="fecha regular fs16 mb-0">
+							<input type="text" placeholder="00 / 00 / 0000" class="fecha regular fs16 mb-0">
+							</div>
+						</div>
+						<a href="buscador.html" onClick="$(this).toggleClass('active')" class="button action mb-0 regular d-none d-lg-block fs16 ml-4 lh25">BUSCAR</a>
+					</div>
+				</div>
+			</div>
+			<div class="row mt-5">
+		
+				<div class="offset-0 col-md-3 col-12 mb-5">
+				<div class="tabpanel ml-0">
+						<div class="title d-flex">
+						<div class="active regular fs18">búsqueda rápida<i></i></div>
+						</div>
+						<div class="tab mt-0 pt-4 ">
+							<div class="pl-3 pr-3">
+							<div onClick="$(this).toggleClass('active')" class="checkbox active mb-1 regular fs16">Ida y vuelta</div>
+							<div onClick="$(this).toggleClass('active')" class="checkbox mb-1 regular fs16">Solo ida</div>
+							<div onClick="$(this).toggleClass('active')" class="checkbox mb-1 regular fs16">Múltiple itinerario</div>
+							</div>
+							<hr>
+							<div class="pl-3 pr-3">
+							<div class="regular fs18 mb-3">Ida</div>
+								<div class="range">
+									<div class="bar"><div class="percent" style="width: 70%;"></div></div>
+									<div class="init"></div>
+									<div class="end" style="left: 70%;"></div>
+									<div class="regular fs16 float-left">00:00</div>
+									<div class="regular fs16 float-right">23:59</div>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+							<hr>
+							<div class="pl-3 pr-3">
+							<div class="regular fs18 mb-3">Vuelta</div>
+								<div class="range">
+									<div class="bar"><div class="percent" style="width: 70%;"></div></div>
+									<div class="init"></div>
+									<div class="end" style="left: 70%;"></div>
+									<div class="regular fs16 float-left">00:00</div>
+									<div class="regular fs16 float-right">23:59</div>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+							<hr>
+							<div class="pl-3 pr-3">
+								<div class="regular fs16 mb-3">1 Persona <div class="float-right icon-sidebar"><img src="images/people.png" class="img-fluid "></div></div>
+							</div>
+							<hr>
+							<div class="pl-3 pr-3">
+								<div class="regular fs16 mb-3">Ryanair, Vueling... <div class="float-right icon-sidebar"><img src="images/plane-02.png" class="img-fluid"></div></div>
+							</div>
+							<hr>
+							<div class="pl-3 pr-3">
+							<div class="regular fs18 mb-3">Flight class</div>
+								<input type="text" placeholder="Salida desde..." class="salida bg-transparent mb-2 regular fs16">
+								<input type="text" placeholder="Salida desde..." class="llegada bg-transparent regular fs16">
+							</div>
+							<hr>
+							<div class="pl-3 pr-3">
+							<div class="regular fs16 mb-0">+/- 3 días  <input class="float-right" type="checkbox" value="1"/></div>
+							</div>
+							<hr>
+							<div class="pl-3 pr-3">
+							<div class="regular fs16 mb-4">Vuelo directo  <input class="float-right" type="checkbox" value="1"/></div>
+
+							<div onClick="$(this).toggleClass('active')" class="button reset mt-3 mb-3 regular fs16">RESETEAR BÚSQUEDA</div><br>
+							<a href="resultados.html" onClick="$(this).toggleClass('active')" class="button search mb-0 regular fs16">BUSCAR VUELOS</a>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-9 col-12 ">
+					
+					<div class="d-flex no-md-flex mb-4  ">
+						<div class="bold bg-primary d-none d-md-block mb-5 mb-md-0 w-100 ml-2 p-2 p-lg-4 text-uppercase border-radius">
+							Mejor precio
+							<div class="regular float-right">
+							3h 55m<br>
+								<span class="bold lh22 orange">115€</span>
+							</div>
+						
+						</div>
+						<div class="bold bg-secondary w-100 ml-2  text-uppercase border-radius"><div class="p-lg-4  p-2 float-left">Más barato</div>
+						<div class="regular bg-primary float-right p-lg-4 p-2 border-radius-right">
+							3h 55m<br>
+								<span class="bold lh22 orange">115€</span>
+							</div>
+						</div>
+						<div class="bold bg-secondary w-100 ml-2 text-uppercase border-radius"><div class="p-lg-4 p-2 float-left">Más corto</div>
+						<div class="regular bg-primary float-right p-lg-4 p-2 border-radius-right">
+							3h 55m<br>
+								<span class="bold lh22 orange">115€</span>
+							</div>
+						</div>
+					
+					</div>
+					
+					
+					<div class="tabpanel ml-0">
+						<div class="title mb-0 pb-0 d-flex">
+						<div class="active mb-0 pb-0 bold fs20">Los vuelos más económicos<i></i></div>
+						</div>
+						<div class="tab mt-0 pt-0">
+						<hr/>
+							<div class="d-flex">
+								<div class="w-25 mr-2"></div>
+								<div class="w-25 box-img ml-2 bg-white text-center pt-4 pb-0"><img src="images/tapportugal.png" class="img-fluid pt-1"></div>
+								<div class="w-25 box-img ml-2 bg-white text-center pt-4 pb-0"><img src="images/transavia.png" class="img-fluid"></div>
+								<div class="w-25 box-img ml-2 bg-white text-center pt-4 pb-0"><img src="images/eurowin.png" class="img-fluid"></div>
+								<div class="w-25 box-img ml-2 mr-2 bg-white text-center pt-4 pb-0"><img src="images/vueling.png" class="img-fluid"></div>
+							
+							</div>
+							<div class="d-flex mt-2">
+								<div class="w-25 ml-2 bold bg-primary fs16 lh28 pl-4">DIRECTO</div>
+								<div class="w-25 ml-2 bold bg-white text-center fs16 lh28 pl-4">134,27€</div>
+								<div class="w-25 ml-2 bold bg-white text-center fs16 lh28 pl-4">134,27€</div>
+								<div class="w-25 ml-2 bold bg-warning text-center fs16 lh28 pl-4">134,27€</div>
+								<div class="w-25 ml-2 mr-2 bold bg-white text-center fs16 lh28 pl-4">-</div>
+							
+							</div>
+							<div class="d-flex mt-2">
+								<div class="w-25 ml-2 bold bg-primary fs16 lh28 pl-4">1 ESCALA</div>
+								<div class="w-25 ml-2 bold bg-white text-center fs16 lh28 pl-4">134,27€</div>
+								<div class="w-25 ml-2 bold bg-white text-center fs16 lh28 pl-4">134,27€</div>
+								<div class="w-25 ml-2 bold bg-white text-center fs16 lh28 pl-4">134,27€</div>
+								<div class="w-25 ml-2 mr-2 bold bg-white text-center fs16 lh28 pl-4">-</div>
+							
+							</div>
+							<div class="d-flex mt-2">
+								<div class="w-25 ml-2 bold bg-primary fs16 lh28 pl-4">+2 ESCALAS</div>
+								<div class="w-25 ml-2 bold bg-white text-center fs16 lh28 pl-4">134,27€</div>
+								<div class="w-25 ml-2 bold bg-white text-center fs16 lh28 pl-4">-</div>
+								<div class="w-25 ml-2 bold bg-white text-center fs16 lh28 pl-4">134,27€</div>
+								<div class="w-25 ml-2 mr-2 bold bg-white text-center fs16 lh28 pl-4">134,27 €</div>
+							
+							</div>
+							
+						</div>
+					</div>
+					
+					<div class="flight-resume mt-4 ">
+					
+							<div class="d-flex no-flex align-items-center pt-4 pb-4 pl-3">
+								<div class="regular fs16">Resultados de búsqueda (43) </div>
+								<div class="regular fs16 ml-auto"><strong>Modo listado</strong> <input type="checkbox" value="1"/></div>
+								<div class="regular fs16 ml-5"><strong>Modo grupo</strong> <input type="checkbox" value="1"/></div>
+								<div class="regular fs16 ml-5 mr-4"><select class="bold fs16 pr-5 mt-0 mb-0"><option>Ordenar precios</option></select></div>
+							</div>
+							
+							
+					</div>
+					
+	
+						<div class="row mb-4">
+				<div class="col offset-0 col-md-3 col-12 ">
+					<span class="regular fs14">TIPO   <strong class="fs16 ml-3">Bajo coste</strong></span>
+				</div>
+				<div class="col offset-0 col-md-3 col-12 ">
+					<span class="regular fs14">TYPE OF TARIFF   <strong class="fs16 ml-3">Standard</strong></span>
+				</div>
+				
+			</div>
+					
+						 		<div class="row mb-4">
+						
+					<div class="col col-12 pl-0 pr-0">
+						<div class="flight-box mb-5">
+					<div class="flight-resume">
+						<div class="flight-01  regular fs16 align-items-center">
+							
+								<div onclick="$(this).toggleClass('active')" class="checkbox secundary active regular fs16 mb-1 ">
+								<div class="d-flex no-flex align-items-center">
+									<div class="bold fs20">Basic Fare</div>
+									<div class="ml-auto text-left text-sm-center">sin equipaje  /  no reembolsable</div>
+									<div class="ml-auto mr-5 fs24 bold">353.00€</div>
+								</div>
+							
+							</div>
+							<div onclick="$(this).toggleClass('active')" class="checkbox active regular fs16 ">
+								<div class="d-flex no-flex align-items-center">
+									<div class="bold fs20">Óptima Fare</div>
+									<div class="ml-auto text-left text-sm-center">con equipaje  /  no reembolsable</div>
+									<div class="ml-auto mr-5 fs24 bold">460.00€</div>
+								</div>
+							
+						</div>
+						<div class="flight-01 d-flex no-flex regular fs16 align-items-center">
+							<div class="mr-5">
+								<img src="images/arrow_down_01.png" class="img-fluid"/>
+							</div>
+							<div class="ml-4">
+								<span class="fs26 medium">14:25</span><br><br>
+								<span>Miércoles 06 / 11<br>Malaga Pablo Ruiz Picasso (AGP)</span>
+							</div>
+							<div class="ml-4">
+								<span class="fs26 medium">18:30</span><br><br>
+								<span>Miércoles 06 / 11<br>Malaga Pablo Ruiz Picasso (AGP)</span>
+							</div>
+							
+							<div class="ml-auto text-right m-left">
+								<img src="images/vueling.png" class="img-fluid"/><br><br>
+								<strong>Duración</strong> 4h 20m / escalas
+							</div>
+						</div>
+						<div class="flight-02 border-none d-flex no-flex regular fs16 align-items-center">
+							<div class="mr-5">
+								<img src="images/arrow_up_01.png" class="img-fluid"/>
+							</div>
+							<div class="ml-4">
+								<span class="fs26 medium">14:25</span><br><br>
+								<span>Miércoles 06 / 11<br>Malaga Pablo Ruiz Picasso (AGP)</span>
+							</div>
+							<div class="ml-4">
+								<span class="fs26 medium">18:30</span><br><br>
+								<span>Miércoles 06 / 11<br>Malaga Pablo Ruiz Picasso (AGP)</span>
+							</div>
+							
+							<div class="ml-auto text-right m-left">
+								<img src="images/vueling.png" class="img-fluid"/><br><br>
+								<img src="images/danger-info.png" class="img-fluid icon-danger"><strong>Duración</strong> 4h 20m / escalas
+							</div>
+						</div>
+						<div class="tabpanel ">
+						<div class="tab pt-4">
+							<div class="row">
+								<div class="col col-sm-12">
+										<div class="regular fs16 d-flex no-flex mb-4">
+											<div class="mr-2"><img src="images/icon-salida.png"></div>
+											<div>Salida <strong class="ml-4 mr-5">Malaga Pablo Ruiz Picasso (AGP)</strong> </div>
+											<div>viernes   <strong class="ml-4">08/11/2019</strong></div>
+											<div class="ml-auto">hora  <strong class="ml-4"> 22:20</strong></div>
+									
+									</div>
+										<div class="regular fs16 d-flex no-flex mb-4">
+											<div class="mr-2"><img src="images/icon-llegada.png"></div>
+											<div>Llegada <strong class="ml-4 mr-5">Malaga Pablo Ruiz Picasso (AGP)</strong> </div>
+											<div>viernes   <strong class="ml-4">08/11/2019</strong></div>
+											<div class="ml-auto">hora  <strong class="ml-4"> 22:20</strong></div>
+									
+									</div>
+								</div>
+								
+							</div>
+							
+							<div class="row">
+								<div class="col-12 regular fs16 d-flex no-flex tab-info">
+									<div>AIRCRAFT TYPE<br><strong>3081</strong></div>
+									<div>LÍNEA ÁEREA   <br><strong>Ryanair</strong></div>
+									<div>CLASE<br><strong>Económico</strong></div>
+									<div>MEAL<br><strong>S</strong></div>
+									<div>LUGGAGE<br><strong>OL</strong></div>
+									<div>FAIR BASIS<br><strong>T03LGTE2</strong></div>
+									<div>SUPPLIER REF. NUM.<br><strong>Q88RY</strong></div>
+								</div>
+							</div>
+							
+							
+						</div>
+					</div>
+							
+							
+					</div>
+				</div>	
+						
+					<div class="bold fs20 ml-5 mb-2 mt-0 " >Detalles del precio <img src="images/arrow_up_01.png" class="img-fluid float-right mr-5 mt-2"></div>
+					<div class="tab">
+						<div class="list">
+							<div class="item regular fs16 d-flex ">
+								<div class="w-25">PASAJERO</div>
+								<div class="w-25">TARIFA</div>
+								<div class="w-25">CARGOS E IMPUESTOS</div>
+								<div class="w-25">PRECIO POR PERSONA</div>
+								<div class="ml-auto">TOTAL</div>
+							</div>
+							<div class="item regular fs16 d-flex bg-white">
+								<div class="bold w-25">2 x Adultos</div>
+								<div class="bold w-25">134,27€</div>
+								<div class="bold w-25">0,00€</div>
+								<div class="bold w-25">134,27€</div>
+								<div class="bold ml-auto">268,54€</div>
+							</div>
+							<div class="item regular fs16 d-flex bg-white">
+								<div class="bold w-25">2 x Niños</div>
+								<div class="bold w-25">134,27€</div>
+								<div class="bold w-25">0,00€</div>
+								<div class="bold w-25">134,27€</div>
+								<div class="bold ml-auto">268,54€</div>
+							</div>
+							<div class="item regular fs16 d-flex bg-white">
+								<div class="bold w-25">2 x Bebés</div>
+								<div class="bold w-25">134,27€</div>
+								<div class="bold w-25">0,00€</div>
+								<div class="bold w-25">134,27€</div>
+								<div class="bold ml-auto">268,54€</div>
+							</div>
+							
+						</div>
+						
+
+					</div>
+						
+					<div class="row ">
+			
+						<div class="offset-0 col-12">
+
+							<div class= "payment-resume mt-0 border-none d-flex align-items-center">
+								<div class="regular fs16 ml-auto text-right mr-5">Total a pagar</div>
+								<div class="fs42 bold ">278.54€</div>
+							</div>
+						</div>
+																		</div>
+
+					</div>
+						
+			 		<div class="row mb-4">
+						
+					<div class="col col-12 pl-0 pr-0">
+												<div class="flight-box mb-5">
+
+					<div class="flight-resume">
+						<div class="flight-01  regular fs16 align-items-center">
+							
+								<div onclick="$(this).toggleClass('active')" class="checkbox secundary active regular fs16 mb-1 ">
+								<div class="d-flex align-items-center">
+									<div class="bold fs20">Basic Fare</div>
+									<div class="ml-auto text-center">sin equipaje  /  no reembolsable</div>
+									<div class="ml-auto mr-5 fs24 bold">353.00€</div>
+								</div>
+							
+							</div>
+							<div onclick="$(this).toggleClass('active')" class="checkbox active regular fs16 ">
+								<div class="d-flex align-items-center">
+									<div class="bold fs20">Óptima Fare</div>
+									<div class="ml-auto text-center">con equipaje  /  no reembolsable</div>
+									<div class="ml-auto mr-5 fs24 bold">460.00€</div>
+								</div>
+							
+						</div>
+						<div class="flight-01 d-flex no-flex regular fs16 align-items-center">
+							<div class="mr-5">
+								<img src="images/arrow_down_01.png" class="img-fluid"/>
+							</div>
+							<div class="ml-4">
+								<span class="fs26 medium">14:25</span><br><br>
+								<span>Miércoles 06 / 11<br>Malaga Pablo Ruiz Picasso (AGP)</span>
+							</div>
+							<div class="ml-4">
+								<span class="fs26 medium">18:30</span><br><br>
+								<span>Miércoles 06 / 11<br>Malaga Pablo Ruiz Picasso (AGP)</span>
+							</div>
+							
+							<div class="ml-auto text-right m-left">
+								<img src="images/vueling.png" class="img-fluid"/><br><br>
+								<strong>Duración</strong> 4h 20m / escalas
+							</div>
+						</div>
+						<div class="flight-02 border-none d-flex no-flex regular fs16 align-items-center">
+							<div class="mr-5">
+								<img src="images/arrow_down_01.png" class="img-fluid"/>
+							</div>
+							<div class="ml-4">
+								<span class="fs26 medium">14:25</span><br><br>
+								<span>Miércoles 06 / 11<br>Malaga Pablo Ruiz Picasso (AGP)</span>
+							</div>
+							<div class="ml-4">
+								<span class="fs26 medium">18:30</span><br><br>
+								<span>Miércoles 06 / 11<br>Malaga Pablo Ruiz Picasso (AGP)</span>
+							</div>
+							
+							<div class="ml-auto text-right m-left">
+								<img src="images/vueling.png" class="img-fluid"/><br><br>
+								<img src="images/danger-info.png" class="img-fluid icon-danger"><strong>Duración</strong> 4h 20m / escalas
+							</div>
+						</div>
+						
+					</div>	
+				</div>	
+				<div class="row mb-0 mt-4">
+						
+					<div class="col col-12 pl-0 pr-0">
+					
+						<div class="bold fs20 ml-5 mt-0">Detalles del precio <img src="images/arrow_down_01.png" class="img-fluid float-right mr-5 mt-2"></div>
+					
+					<div class="flight-resume mt-4 mb-0 ">
+					
+						<div class="links d-flex no-flex regular fs16 align-items-center">
+							<div>
+								<a href="" class="bold fs11">Mostrar en el mapa <i></i></a>
+							</div>
+							<div class="ml-4 mr-6">
+								<a href="" class="bold fs11">Términos y Condiciones <i></i></a>
+
+							</div>
+							
+							<div class="ml-4 mr-6">
+								<a href="" class="bold fs11">Añadir a la cesta <i></i></a>
+
+							</div>
+							
+							<div class="ml-auto">
+								<a href="resultados.html" onClick="$(this).toggleClass('active')" class="button action no-float  float-right mb-0 regular fs16 pr-5 white">RESERVAR VUELO</a>
+							</div>
+							
+							
+						</div>
+					</div>
+					
+					</div>
+													</div>
+				</div>
+				
+
+				
+				<div class="row mb-5">
+					<div class="col offset-0 col-md-6 col-12 pr-0">
+						<div class="bold text-left">20 de 96 resultados</div>
+					</div>
+					
+					<div class="col offset-0 col-md-6 col-12 mt-3 mt-md-0 pl-0 pr-0">
+						<div onClick="$(this).toggleClass('active')" class="button more no-float float-right mb-0 bold fs16">VER MÁS RESULTADOS<i></i></div>
+					</div>
+				</div>
+					
+					
+					
+				</div>
+				</div>
+				</div>
+				</div>
+			</div>
+		</div>
+		<div class="copyright">
+			<div class="container">
+				<div class="row">
+					<div class="col col-md-10 col-12">
+						<span class="regular fs12 lh32">© 2019 Vuelandia. All Rights Reserved</span>      <a class="regular lnk fs12 lh32" href="">Terms and conditions<i></i></a>      <a class="regular lnk fs12 lh32" href="">Privacy statement<i></i></a>
+					</div>
+					<div class="col col-md-2">
+						<div class="social">
+							<a href="" title="Facebook" class="facebook"></a>
+							<a href="" title="Twitter" class="twitter"></a>
+							<a href="" title="Google +" class="google"></a>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</div>
+				</div>
+<script type="text/javascript" src="js/jquery/animation.js"></script>
+<script>
+    new ANIMATION().init();
+</script>
+</body>
+</html>

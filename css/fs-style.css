@@ -1,0 +1,6046 @@
+/*
+	Descripción: FONT SIZE RESPONSIVE
+	Autor: Rubén Ayala Muñoz
+	Copyright: 2018 - Todos los derechos reservados.
+*/
+
+.fs1 {
+	font-size:					1px;
+}
+
+.fs2 {
+	font-size:					2px;
+}
+
+.fs3 {
+	font-size:					3px;
+}
+
+.fs4 {
+	font-size:					4px;
+}
+
+.fs5 {
+	font-size:					5px;
+}
+
+.fs6 {
+	font-size:					6px;
+}
+
+.fs7 {
+	font-size:					7px;
+}
+
+.fs8 {
+	font-size:					8px;
+}
+
+.fs9 {
+	font-size:					9px;
+}
+
+.fs10 {
+	font-size:					10px;
+}
+
+.fs11 {
+	font-size:					11px;
+}
+
+.fs12 {
+	font-size:					12px;
+}
+
+.fs13 {
+	font-size:					13px;
+}
+
+.fs14 {
+	font-size:					14px;
+}
+
+.fs15 {
+	font-size:					15px;
+}
+
+.fs16 {
+	font-size:					16px;
+}
+
+.fs17 {
+	font-size:					17px;
+}
+
+.fs18 {
+	font-size:					18px;
+}
+
+.fs19 {
+	font-size:					19px;
+}
+
+.fs20 {
+	font-size:					20px;
+}
+
+.fs21 {
+	font-size:					21px;
+}
+
+.fs22 {
+	font-size:					22px;
+}
+
+.fs23 {
+	font-size:					23px;
+}
+
+.fs24 {
+	font-size:					24px;
+}
+
+.fs25 {
+	font-size:					25px;
+}
+
+.fs26 {
+	font-size:					26px;
+}
+
+.fs27 {
+	font-size:					27px;
+}
+
+.fs28 {
+	font-size:					28px;
+}
+
+.fs29 {
+	font-size:					29px;
+}
+
+.fs30 {
+	font-size:					30px;
+}
+
+.fs31 {
+	font-size:					31px;
+}
+
+.fs32 {
+	font-size:					32px;
+}
+
+.fs33 {
+	font-size:					33px;
+}
+
+.fs34 {
+	font-size:					34px;
+}
+
+.fs35 {
+	font-size:					35px;
+}
+
+.fs36 {
+	font-size:					36px;
+}
+
+.fs37 {
+	font-size:					37px;
+}
+
+.fs38 {
+	font-size:					38px;
+}
+
+.fs39 {
+	font-size:					39px;
+}
+
+.fs40 {
+	font-size:					40px;
+}
+
+.fs41 {
+	font-size:					41px;
+}
+
+.fs42 {
+	font-size:					42px;
+}
+
+.fs43 {
+	font-size:					43px;
+}
+
+.fs44 {
+	font-size:					44px;
+}
+
+.fs45 {
+	font-size:					45px;
+}
+
+.fs46 {
+	font-size:					46px;
+}
+
+.fs47 {
+	font-size:					47px;
+}
+
+.fs48 {
+	font-size:					48px;
+}
+
+.fs49 {
+	font-size:					49px;
+}
+
+.fs50 {
+	font-size:					50px;
+}
+
+.fs51 {
+	font-size:					51px;
+}
+
+.fs52 {
+	font-size:					52px;
+}
+
+.fs53 {
+	font-size:					53px;
+}
+
+.fs54 {
+	font-size:					54px;
+}
+
+.fs55 {
+	font-size:					55px;
+}
+
+.fs56 {
+	font-size:					56px;
+}
+
+.fs57 {
+	font-size:					57px;
+}
+
+.fs58 {
+	font-size:					58px;
+}
+
+.fs59 {
+	font-size:					59px;
+}
+
+.fs60 {
+	font-size:					60px;
+}
+
+.fs61 {
+	font-size:					61px;
+}
+
+.fs62 {
+	font-size:					62px;
+}
+
+.fs63 {
+	font-size:					63px;
+}
+
+.fs64 {
+	font-size:					64px;
+}
+
+.fs65 {
+	font-size:					65px;
+}
+
+.fs66 {
+	font-size:					66px;
+}
+
+.fs67 {
+	font-size:					67px;
+}
+
+.fs68 {
+	font-size:					68px;
+}
+
+.fs69 {
+	font-size:					69px;
+}
+
+.fs70 {
+	font-size:					70px;
+}
+
+.fs71 {
+	font-size:					71px;
+}
+
+.fs72 {
+	font-size:					72px;
+}
+
+.fs73 {
+	font-size:					73px;
+}
+
+.fs74 {
+	font-size:					74px;
+}
+
+.fs75 {
+	font-size:					75px;
+}
+
+.fs76 {
+	font-size:					76px;
+}
+
+.fs77 {
+	font-size:					77px;
+}
+
+.fs78 {
+	font-size:					78px;
+}
+
+.fs79 {
+	font-size:					79px;
+}
+
+.fs80 {
+	font-size:					80px;
+}
+
+.fs81 {
+	font-size:					81px;
+}
+
+.fs82 {
+	font-size:					82px;
+}
+
+.fs83 {
+	font-size:					83px;
+}
+
+.fs84 {
+	font-size:					84px;
+}
+
+.fs85 {
+	font-size:					85px;
+}
+
+.fs86 {
+	font-size:					86px;
+}
+
+.fs87 {
+	font-size:					87px;
+}
+
+.fs88 {
+	font-size:					88px;
+}
+
+.fs89 {
+	font-size:					89px;
+}
+
+.fs90 {
+	font-size:					90px;
+}
+
+.fs91 {
+	font-size:					91px;
+}
+
+.fs92 {
+	font-size:					92px;
+}
+
+.fs93 {
+	font-size:					93px;
+}
+
+.fs94 {
+	font-size:					94px;
+}
+
+.fs95 {
+	font-size:					95px;
+}
+
+.fs96 {
+	font-size:					96px;
+}
+
+.fs97 {
+	font-size:					97px;
+}
+
+.fs98 {
+	font-size:					98px;
+}
+
+.fs99 {
+	font-size:					99px;
+}
+
+.fs100 {
+	font-size:					100px;
+}
+
+.fs101 {
+	font-size:					101px;
+}
+
+.fs102 {
+	font-size:					102px;
+}
+
+.fs103 {
+	font-size:					103px;
+}
+
+.fs104 {
+	font-size:					104px;
+}
+
+.fs105 {
+	font-size:					105px;
+}
+
+.fs106 {
+	font-size:					106px;
+}
+
+.fs107 {
+	font-size:					107px;
+}
+
+.fs108 {
+	font-size:					108px;
+}
+
+.fs109 {
+	font-size:					109px;
+}
+
+.fs110 {
+	font-size:					110px;
+}
+
+.fs111 {
+	font-size:					111px;
+}
+
+.fs112 {
+	font-size:					112px;
+}
+
+.fs113 {
+	font-size:					113px;
+}
+
+.fs114 {
+	font-size:					114px;
+}
+
+.fs115 {
+	font-size:					115px;
+}
+
+.fs116 {
+	font-size:					116px;
+}
+
+.fs117 {
+	font-size:					117px;
+}
+
+.fs118 {
+	font-size:					118px;
+}
+
+.fs119 {
+	font-size:					119px;
+}
+
+.fs120 {
+	font-size:					120px;
+}
+
+.fs121 {
+	font-size:					121px;
+}
+
+.fs122 {
+	font-size:					122px;
+}
+
+.fs123 {
+	font-size:					123px;
+}
+
+.fs124 {
+	font-size:					124px;
+}
+
+.fs125 {
+	font-size:					125px;
+}
+
+.fs126 {
+	font-size:					126px;
+}
+
+.fs127 {
+	font-size:					127px;
+}
+
+.fs128 {
+	font-size:					128px;
+}
+
+.fs129 {
+	font-size:					129px;
+}
+
+.fs130 {
+	font-size:					130px;
+}
+
+.fs131 {
+	font-size:					131px;
+}
+
+.fs132 {
+	font-size:					132px;
+}
+
+.fs133 {
+	font-size:					133px;
+}
+
+.fs134 {
+	font-size:					134px;
+}
+
+.fs135 {
+	font-size:					135px;
+}
+
+.fs136 {
+	font-size:					136px;
+}
+
+.fs137 {
+	font-size:					137px;
+}
+
+.fs138 {
+	font-size:					138px;
+}
+
+.fs139 {
+	font-size:					139px;
+}
+
+.fs140 {
+	font-size:					140px;
+}
+
+.fs141 {
+	font-size:					141px;
+}
+
+.fs142 {
+	font-size:					142px;
+}
+
+.fs143 {
+	font-size:					143px;
+}
+
+.fs144 {
+	font-size:					144px;
+}
+
+.fs145 {
+	font-size:					145px;
+}
+
+.fs146 {
+	font-size:					146px;
+}
+
+.fs147 {
+	font-size:					147px;
+}
+
+.fs148 {
+	font-size:					148px;
+}
+
+.fs149 {
+	font-size:					149px;
+}
+
+.fs150 {
+	font-size:					150px;
+}
+
+.fs151 {
+	font-size:					151px;
+}
+
+.fs152 {
+	font-size:					152px;
+}
+
+.fs153 {
+	font-size:					153px;
+}
+
+.fs154 {
+	font-size:					154px;
+}
+
+.fs155 {
+	font-size:					155px;
+}
+
+.fs156 {
+	font-size:					156px;
+}
+
+.fs157 {
+	font-size:					157px;
+}
+
+.fs158 {
+	font-size:					158px;
+}
+
+.fs159 {
+	font-size:					159px;
+}
+
+.fs160 {
+	font-size:					160px;
+}
+
+.fs161 {
+	font-size:					161px;
+}
+
+.fs162 {
+	font-size:					162px;
+}
+
+.fs163 {
+	font-size:					163px;
+}
+
+.fs164 {
+	font-size:					164px;
+}
+
+.fs165 {
+	font-size:					165px;
+}
+
+.fs166 {
+	font-size:					166px;
+}
+
+.fs167 {
+	font-size:					167px;
+}
+
+.fs168 {
+	font-size:					168px;
+}
+
+.fs169 {
+	font-size:					169px;
+}
+
+.fs170 {
+	font-size:					170px;
+}
+
+.fs171 {
+	font-size:					171px;
+}
+
+.fs172 {
+	font-size:					172px;
+}
+
+.fs173 {
+	font-size:					173px;
+}
+
+.fs174 {
+	font-size:					174px;
+}
+
+.fs175 {
+	font-size:					175px;
+}
+
+.fs176 {
+	font-size:					176px;
+}
+
+.fs177 {
+	font-size:					177px;
+}
+
+.fs178 {
+	font-size:					178px;
+}
+
+.fs179 {
+	font-size:					179px;
+}
+
+.fs180 {
+	font-size:					180px;
+}
+
+.fs181 {
+	font-size:					181px;
+}
+
+.fs182 {
+	font-size:					182px;
+}
+
+.fs183 {
+	font-size:					183px;
+}
+
+.fs184 {
+	font-size:					184px;
+}
+
+.fs185 {
+	font-size:					185px;
+}
+
+.fs186 {
+	font-size:					186px;
+}
+
+.fs187 {
+	font-size:					187px;
+}
+
+.fs188 {
+	font-size:					188px;
+}
+
+.fs189 {
+	font-size:					189px;
+}
+
+.fs190 {
+	font-size:					190px;
+}
+
+.fs191 {
+	font-size:					191px;
+}
+
+.fs192 {
+	font-size:					192px;
+}
+
+.fs193 {
+	font-size:					193px;
+}
+
+.fs194 {
+	font-size:					194px;
+}
+
+.fs195 {
+	font-size:					195px;
+}
+
+.fs196 {
+	font-size:					196px;
+}
+
+.fs197 {
+	font-size:					197px;
+}
+
+.fs198 {
+	font-size:					198px;
+}
+
+.fs199 {
+	font-size:					199px;
+}
+
+.fs200 {
+	font-size:					200px;
+}
+
+.fs201 {
+	font-size:					201px;
+}
+
+.fs202 {
+	font-size:					202px;
+}
+
+.fs203 {
+	font-size:					203px;
+}
+
+.fs204 {
+	font-size:					204px;
+}
+
+.fs205 {
+	font-size:					205px;
+}
+
+.fs206 {
+	font-size:					206px;
+}
+
+.fs207 {
+	font-size:					207px;
+}
+
+.fs208 {
+	font-size:					208px;
+}
+
+.fs209 {
+	font-size:					209px;
+}
+
+.fs210 {
+	font-size:					210px;
+}
+
+.fs211 {
+	font-size:					211px;
+}
+
+.fs212 {
+	font-size:					212px;
+}
+
+.fs213 {
+	font-size:					213px;
+}
+
+.fs214 {
+	font-size:					214px;
+}
+
+.fs215 {
+	font-size:					215px;
+}
+
+.fs216 {
+	font-size:					216px;
+}
+
+.fs217 {
+	font-size:					217px;
+}
+
+.fs218 {
+	font-size:					218px;
+}
+
+.fs219 {
+	font-size:					219px;
+}
+
+.fs220 {
+	font-size:					220px;
+}
+
+.fs221 {
+	font-size:					221px;
+}
+
+.fs222 {
+	font-size:					222px;
+}
+
+.fs223 {
+	font-size:					223px;
+}
+
+.fs224 {
+	font-size:					224px;
+}
+
+.fs225 {
+	font-size:					225px;
+}
+
+.fs226 {
+	font-size:					226px;
+}
+
+.fs227 {
+	font-size:					227px;
+}
+
+.fs228 {
+	font-size:					228px;
+}
+
+.fs229 {
+	font-size:					229px;
+}
+
+.fs230 {
+	font-size:					230px;
+}
+
+.fs231 {
+	font-size:					231px;
+}
+
+.fs232 {
+	font-size:					232px;
+}
+
+.fs233 {
+	font-size:					233px;
+}
+
+.fs234 {
+	font-size:					234px;
+}
+
+.fs235 {
+	font-size:					235px;
+}
+
+.fs236 {
+	font-size:					236px;
+}
+
+.fs237 {
+	font-size:					237px;
+}
+
+.fs238 {
+	font-size:					238px;
+}
+
+.fs239 {
+	font-size:					239px;
+}
+
+.fs240 {
+	font-size:					240px;
+}
+
+.fs241 {
+	font-size:					241px;
+}
+
+.fs242 {
+	font-size:					242px;
+}
+
+.fs243 {
+	font-size:					243px;
+}
+
+.fs244 {
+	font-size:					244px;
+}
+
+.fs245 {
+	font-size:					245px;
+}
+
+.fs246 {
+	font-size:					246px;
+}
+
+.fs247 {
+	font-size:					247px;
+}
+
+.fs248 {
+	font-size:					248px;
+}
+
+.fs249 {
+	font-size:					249px;
+}
+
+.fs250 {
+	font-size:					250px;
+}
+
+
+
+
+@media (max-width: 1599px) {
+
+.fs1 {
+	font-size:					1px;
+}
+
+.fs2 {
+	font-size:					2px;
+}
+
+.fs3 {
+	font-size:					3px;
+}
+
+.fs4 {
+	font-size:					4px;
+}
+
+.fs5 {
+	font-size:					5px;
+}
+
+.fs6 {
+	font-size:					6px;
+}
+
+.fs7 {
+	font-size:					6px;
+}
+
+.fs8 {
+	font-size:					7px;
+}
+
+.fs9 {
+	font-size:					8px;
+}
+
+.fs10 {
+	font-size:					9px;
+}
+
+.fs11 {
+	font-size:					10px;
+}
+
+.fs12 {
+	font-size:					11px;
+}
+
+.fs13 {
+	font-size:					12px;
+}
+
+.fs14 {
+	font-size:					12px;
+}
+
+.fs15 {
+	font-size:					13px;
+}
+
+.fs16 {
+	font-size:					14px;
+}
+
+.fs17 {
+	font-size:					15px;
+}
+
+.fs18 {
+	font-size:					16px;
+}
+
+.fs19 {
+	font-size:					17px;
+}
+
+.fs20 {
+	font-size:					17px;
+}
+
+.fs21 {
+	font-size:					18px;
+}
+
+.fs22 {
+	font-size:					19px;
+}
+
+.fs23 {
+	font-size:					20px;
+}
+
+.fs24 {
+	font-size:					21px;
+}
+
+.fs25 {
+	font-size:					22px;
+}
+
+.fs26 {
+	font-size:					23px;
+}
+
+.fs27 {
+	font-size:					23px;
+}
+
+.fs28 {
+	font-size:					24px;
+}
+
+.fs29 {
+	font-size:					25px;
+}
+
+.fs30 {
+	font-size:					26px;
+}
+
+.fs31 {
+	font-size:					27px;
+}
+
+.fs32 {
+	font-size:					28px;
+}
+
+.fs33 {
+	font-size:					29px;
+}
+
+.fs34 {
+	font-size:					29px;
+}
+
+.fs35 {
+	font-size:					30px;
+}
+
+.fs36 {
+	font-size:					31px;
+}
+
+.fs37 {
+	font-size:					32px;
+}
+
+.fs38 {
+	font-size:					33px;
+}
+
+.fs39 {
+	font-size:					34px;
+}
+
+.fs40 {
+	font-size:					34px;
+}
+
+.fs41 {
+	font-size:					35px;
+}
+
+.fs42 {
+	font-size:					36px;
+}
+
+.fs43 {
+	font-size:					37px;
+}
+
+.fs44 {
+	font-size:					38px;
+}
+
+.fs45 {
+	font-size:					39px;
+}
+
+.fs46 {
+	font-size:					40px;
+}
+
+.fs47 {
+	font-size:					40px;
+}
+
+.fs48 {
+	font-size:					41px;
+}
+
+.fs49 {
+	font-size:					42px;
+}
+
+.fs50 {
+	font-size:					43px;
+}
+
+.fs51 {
+	font-size:					44px;
+}
+
+.fs52 {
+	font-size:					45px;
+}
+
+.fs53 {
+	font-size:					46px;
+}
+
+.fs54 {
+	font-size:					46px;
+}
+
+.fs55 {
+	font-size:					47px;
+}
+
+.fs56 {
+	font-size:					48px;
+}
+
+.fs57 {
+	font-size:					49px;
+}
+
+.fs58 {
+	font-size:					50px;
+}
+
+.fs59 {
+	font-size:					51px;
+}
+
+.fs60 {
+	font-size:					51px;
+}
+
+.fs61 {
+	font-size:					52px;
+}
+
+.fs62 {
+	font-size:					53px;
+}
+
+.fs63 {
+	font-size:					54px;
+}
+
+.fs64 {
+	font-size:					55px;
+}
+
+.fs65 {
+	font-size:					56px;
+}
+
+.fs66 {
+	font-size:					57px;
+}
+
+.fs67 {
+	font-size:					57px;
+}
+
+.fs68 {
+	font-size:					58px;
+}
+
+.fs69 {
+	font-size:					59px;
+}
+
+.fs70 {
+	font-size:					60px;
+}
+
+.fs71 {
+	font-size:					61px;
+}
+
+.fs72 {
+	font-size:					62px;
+}
+
+.fs73 {
+	font-size:					63px;
+}
+
+.fs74 {
+	font-size:					63px;
+}
+
+.fs75 {
+	font-size:					64px;
+}
+
+.fs76 {
+	font-size:					65px;
+}
+
+.fs77 {
+	font-size:					66px;
+}
+
+.fs78 {
+	font-size:					67px;
+}
+
+.fs79 {
+	font-size:					68px;
+}
+
+.fs80 {
+	font-size:					68px;
+}
+
+.fs81 {
+	font-size:					69px;
+}
+
+.fs82 {
+	font-size:					70px;
+}
+
+.fs83 {
+	font-size:					71px;
+}
+
+.fs84 {
+	font-size:					72px;
+}
+
+.fs85 {
+	font-size:					73px;
+}
+
+.fs86 {
+	font-size:					74px;
+}
+
+.fs87 {
+	font-size:					74px;
+}
+
+.fs88 {
+	font-size:					75px;
+}
+
+.fs89 {
+	font-size:					76px;
+}
+
+.fs90 {
+	font-size:					77px;
+}
+
+.fs91 {
+	font-size:					78px;
+}
+
+.fs92 {
+	font-size:					79px;
+}
+
+.fs93 {
+	font-size:					80px;
+}
+
+.fs94 {
+	font-size:					80px;
+}
+
+.fs95 {
+	font-size:					81px;
+}
+
+.fs96 {
+	font-size:					82px;
+}
+
+.fs97 {
+	font-size:					83px;
+}
+
+.fs98 {
+	font-size:					84px;
+}
+
+.fs99 {
+	font-size:					85px;
+}
+
+.fs100 {
+	font-size:					85px;
+}
+
+.fs101 {
+	font-size:					86px;
+}
+
+.fs102 {
+	font-size:					87px;
+}
+
+.fs103 {
+	font-size:					88px;
+}
+
+.fs104 {
+	font-size:					89px;
+}
+
+.fs105 {
+	font-size:					90px;
+}
+
+.fs106 {
+	font-size:					91px;
+}
+
+.fs107 {
+	font-size:					91px;
+}
+
+.fs108 {
+	font-size:					92px;
+}
+
+.fs109 {
+	font-size:					93px;
+}
+
+.fs110 {
+	font-size:					94px;
+}
+
+.fs111 {
+	font-size:					95px;
+}
+
+.fs112 {
+	font-size:					96px;
+}
+
+.fs113 {
+	font-size:					97px;
+}
+
+.fs114 {
+	font-size:					97px;
+}
+
+.fs115 {
+	font-size:					98px;
+}
+
+.fs116 {
+	font-size:					99px;
+}
+
+.fs117 {
+	font-size:					100px;
+}
+
+.fs118 {
+	font-size:					101px;
+}
+
+.fs119 {
+	font-size:					102px;
+}
+
+.fs120 {
+	font-size:					102px;
+}
+
+.fs121 {
+	font-size:					103px;
+}
+
+.fs122 {
+	font-size:					104px;
+}
+
+.fs123 {
+	font-size:					105px;
+}
+
+.fs124 {
+	font-size:					106px;
+}
+
+.fs125 {
+	font-size:					107px;
+}
+
+.fs126 {
+	font-size:					108px;
+}
+
+.fs127 {
+	font-size:					108px;
+}
+
+.fs128 {
+	font-size:					109px;
+}
+
+.fs129 {
+	font-size:					110px;
+}
+
+.fs130 {
+	font-size:					111px;
+}
+
+.fs131 {
+	font-size:					112px;
+}
+
+.fs132 {
+	font-size:					113px;
+}
+
+.fs133 {
+	font-size:					114px;
+}
+
+.fs134 {
+	font-size:					114px;
+}
+
+.fs135 {
+	font-size:					115px;
+}
+
+.fs136 {
+	font-size:					116px;
+}
+
+.fs137 {
+	font-size:					117px;
+}
+
+.fs138 {
+	font-size:					118px;
+}
+
+.fs139 {
+	font-size:					119px;
+}
+
+.fs140 {
+	font-size:					119px;
+}
+
+.fs141 {
+	font-size:					120px;
+}
+
+.fs142 {
+	font-size:					121px;
+}
+
+.fs143 {
+	font-size:					122px;
+}
+
+.fs144 {
+	font-size:					123px;
+}
+
+.fs145 {
+	font-size:					124px;
+}
+
+.fs146 {
+	font-size:					125px;
+}
+
+.fs147 {
+	font-size:					125px;
+}
+
+.fs148 {
+	font-size:					126px;
+}
+
+.fs149 {
+	font-size:					127px;
+}
+
+.fs150 {
+	font-size:					128px;
+}
+
+.fs151 {
+	font-size:					129px;
+}
+
+.fs152 {
+	font-size:					130px;
+}
+
+.fs153 {
+	font-size:					131px;
+}
+
+.fs154 {
+	font-size:					131px;
+}
+
+.fs155 {
+	font-size:					132px;
+}
+
+.fs156 {
+	font-size:					133px;
+}
+
+.fs157 {
+	font-size:					134px;
+}
+
+.fs158 {
+	font-size:					135px;
+}
+
+.fs159 {
+	font-size:					136px;
+}
+
+.fs160 {
+	font-size:					136px;
+}
+
+.fs161 {
+	font-size:					137px;
+}
+
+.fs162 {
+	font-size:					138px;
+}
+
+.fs163 {
+	font-size:					139px;
+}
+
+.fs164 {
+	font-size:					140px;
+}
+
+.fs165 {
+	font-size:					141px;
+}
+
+.fs166 {
+	font-size:					142px;
+}
+
+.fs167 {
+	font-size:					142px;
+}
+
+.fs168 {
+	font-size:					143px;
+}
+
+.fs169 {
+	font-size:					144px;
+}
+
+.fs170 {
+	font-size:					145px;
+}
+
+.fs171 {
+	font-size:					146px;
+}
+
+.fs172 {
+	font-size:					147px;
+}
+
+.fs173 {
+	font-size:					148px;
+}
+
+.fs174 {
+	font-size:					148px;
+}
+
+.fs175 {
+	font-size:					149px;
+}
+
+.fs176 {
+	font-size:					150px;
+}
+
+.fs177 {
+	font-size:					151px;
+}
+
+.fs178 {
+	font-size:					152px;
+}
+
+.fs179 {
+	font-size:					153px;
+}
+
+.fs180 {
+	font-size:					153px;
+}
+
+.fs181 {
+	font-size:					154px;
+}
+
+.fs182 {
+	font-size:					155px;
+}
+
+.fs183 {
+	font-size:					156px;
+}
+
+.fs184 {
+	font-size:					157px;
+}
+
+.fs185 {
+	font-size:					158px;
+}
+
+.fs186 {
+	font-size:					159px;
+}
+
+.fs187 {
+	font-size:					159px;
+}
+
+.fs188 {
+	font-size:					160px;
+}
+
+.fs189 {
+	font-size:					161px;
+}
+
+.fs190 {
+	font-size:					162px;
+}
+
+.fs191 {
+	font-size:					163px;
+}
+
+.fs192 {
+	font-size:					164px;
+}
+
+.fs193 {
+	font-size:					165px;
+}
+
+.fs194 {
+	font-size:					165px;
+}
+
+.fs195 {
+	font-size:					166px;
+}
+
+.fs196 {
+	font-size:					167px;
+}
+
+.fs197 {
+	font-size:					168px;
+}
+
+.fs198 {
+	font-size:					169px;
+}
+
+.fs199 {
+	font-size:					170px;
+}
+
+.fs200 {
+	font-size:					170px;
+}
+
+.fs201 {
+	font-size:					171px;
+}
+
+.fs202 {
+	font-size:					172px;
+}
+
+.fs203 {
+	font-size:					173px;
+}
+
+.fs204 {
+	font-size:					174px;
+}
+
+.fs205 {
+	font-size:					175px;
+}
+
+.fs206 {
+	font-size:					176px;
+}
+
+.fs207 {
+	font-size:					176px;
+}
+
+.fs208 {
+	font-size:					177px;
+}
+
+.fs209 {
+	font-size:					178px;
+}
+
+.fs210 {
+	font-size:					179px;
+}
+
+.fs211 {
+	font-size:					180px;
+}
+
+.fs212 {
+	font-size:					181px;
+}
+
+.fs213 {
+	font-size:					182px;
+}
+
+.fs214 {
+	font-size:					182px;
+}
+
+.fs215 {
+	font-size:					183px;
+}
+
+.fs216 {
+	font-size:					184px;
+}
+
+.fs217 {
+	font-size:					185px;
+}
+
+.fs218 {
+	font-size:					186px;
+}
+
+.fs219 {
+	font-size:					187px;
+}
+
+.fs220 {
+	font-size:					187px;
+}
+
+.fs221 {
+	font-size:					188px;
+}
+
+.fs222 {
+	font-size:					189px;
+}
+
+.fs223 {
+	font-size:					190px;
+}
+
+.fs224 {
+	font-size:					191px;
+}
+
+.fs225 {
+	font-size:					192px;
+}
+
+.fs226 {
+	font-size:					193px;
+}
+
+.fs227 {
+	font-size:					193px;
+}
+
+.fs228 {
+	font-size:					194px;
+}
+
+.fs229 {
+	font-size:					195px;
+}
+
+.fs230 {
+	font-size:					196px;
+}
+
+.fs231 {
+	font-size:					197px;
+}
+
+.fs232 {
+	font-size:					198px;
+}
+
+.fs233 {
+	font-size:					199px;
+}
+
+.fs234 {
+	font-size:					199px;
+}
+
+.fs235 {
+	font-size:					200px;
+}
+
+.fs236 {
+	font-size:					201px;
+}
+
+.fs237 {
+	font-size:					202px;
+}
+
+.fs238 {
+	font-size:					203px;
+}
+
+.fs239 {
+	font-size:					204px;
+}
+
+.fs240 {
+	font-size:					204px;
+}
+
+.fs241 {
+	font-size:					205px;
+}
+
+.fs242 {
+	font-size:					206px;
+}
+
+.fs243 {
+	font-size:					207px;
+}
+
+.fs244 {
+	font-size:					208px;
+}
+
+.fs245 {
+	font-size:					209px;
+}
+
+.fs246 {
+	font-size:					210px;
+}
+
+.fs247 {
+	font-size:					210px;
+}
+
+.fs248 {
+	font-size:					211px;
+}
+
+.fs249 {
+	font-size:					212px;
+}
+
+.fs250 {
+	font-size:					213px;
+}
+
+
+}
+
+
+@media (max-width: 1048px) {
+
+ /*
+
+.fs1 {
+	font-size:					1px;
+}
+
+.fs2 {
+	font-size:					2px;
+}
+
+.fs3 {
+	font-size:					3px;
+}
+
+.fs4 {
+	font-size:					4px;
+}
+
+.fs5 {
+	font-size:					4px;
+}
+
+.fs6 {
+	font-size:					5px;
+}
+
+.fs7 {
+	font-size:					6px;
+}
+
+.fs8 {
+	font-size:					7px;
+}
+
+.fs9 {
+	font-size:					8px;
+}
+
+.fs10 {
+	font-size:					8px;
+}
+
+.fs11 {
+	font-size:					9px;
+}
+
+.fs12 {
+	font-size:					10px;
+}
+
+.fs13 {
+	font-size:					11px;
+}
+
+.fs14 {
+	font-size:					12px;
+}
+
+.fs15 {
+	font-size:					12px;
+}
+
+.fs16 {
+	font-size:					13px;
+}
+*/
+.fs17 {
+	font-size:					14px;
+}
+
+.fs18 {
+	font-size:					14px;
+}
+
+.fs19 {
+	font-size:					16px;
+}
+
+.fs20 {
+	font-size:					16px;
+}
+
+.fs21 {
+	font-size:					17px;
+}
+
+.fs22 {
+	font-size:					18px;
+}
+
+.fs23 {
+	font-size:					19px;
+}
+
+.fs24 {
+	font-size:					20px;
+}
+
+.fs25 {
+	font-size:					20px;
+}
+
+.fs26 {
+	font-size:					21px;
+}
+
+.fs27 {
+	font-size:					22px;
+}
+
+.fs28 {
+	font-size:					23px;
+}
+
+.fs29 {
+	font-size:					24px;
+}
+
+.fs30 {
+	font-size:					24px;
+}
+
+.fs31 {
+	font-size:					25px;
+}
+
+.fs32 {
+	font-size:					26px;
+}
+
+.fs33 {
+	font-size:					27px;
+}
+
+.fs34 {
+	font-size:					28px;
+}
+
+.fs35 {
+	font-size:					28px;
+}
+
+.fs36 {
+	font-size:					29px;
+}
+
+.fs37 {
+	font-size:					30px;
+}
+
+.fs38 {
+	font-size:					31px;
+}
+
+.fs39 {
+	font-size:					32px;
+}
+
+.fs40 {
+	font-size:					32px;
+}
+
+.fs41 {
+	font-size:					33px;
+}
+
+.fs42 {
+	font-size:					34px;
+}
+
+.fs43 {
+	font-size:					35px;
+}
+
+.fs44 {
+	font-size:					36px;
+}
+
+.fs45 {
+	font-size:					36px;
+}
+
+.fs46 {
+	font-size:					37px;
+}
+
+.fs47 {
+	font-size:					38px;
+}
+
+.fs48 {
+	font-size:					39px;
+}
+
+.fs49 {
+	font-size:					40px;
+}
+
+.fs50 {
+	font-size:					40px;
+}
+
+.fs51 {
+	font-size:					41px;
+}
+
+.fs52 {
+	font-size:					42px;
+}
+
+.fs53 {
+	font-size:					43px;
+}
+
+.fs54 {
+	font-size:					44px;
+}
+
+.fs55 {
+	font-size:					44px;
+}
+
+.fs56 {
+	font-size:					45px;
+}
+
+.fs57 {
+	font-size:					46px;
+}
+
+.fs58 {
+	font-size:					47px;
+}
+
+.fs59 {
+	font-size:					48px;
+}
+
+.fs60 {
+	font-size:					48px;
+}
+
+.fs61 {
+	font-size:					49px;
+}
+
+.fs62 {
+	font-size:					50px;
+}
+
+.fs63 {
+	font-size:					51px;
+}
+
+.fs64 {
+	font-size:					52px;
+}
+
+.fs65 {
+	font-size:					52px;
+}
+
+.fs66 {
+	font-size:					53px;
+}
+
+.fs67 {
+	font-size:					54px;
+}
+
+.fs68 {
+	font-size:					55px;
+}
+
+.fs69 {
+	font-size:					56px;
+}
+
+.fs70 {
+	font-size:					56px;
+}
+
+.fs71 {
+	font-size:					57px;
+}
+
+.fs72 {
+	font-size:					58px;
+}
+
+.fs73 {
+	font-size:					59px;
+}
+
+.fs74 {
+	font-size:					60px;
+}
+
+.fs75 {
+	font-size:					60px;
+}
+
+.fs76 {
+	font-size:					61px;
+}
+
+.fs77 {
+	font-size:					62px;
+}
+
+.fs78 {
+	font-size:					63px;
+}
+
+.fs79 {
+	font-size:					64px;
+}
+
+.fs80 {
+	font-size:					64px;
+}
+
+.fs81 {
+	font-size:					65px;
+}
+
+.fs82 {
+	font-size:					66px;
+}
+
+.fs83 {
+	font-size:					67px;
+}
+
+.fs84 {
+	font-size:					68px;
+}
+
+.fs85 {
+	font-size:					68px;
+}
+
+.fs86 {
+	font-size:					69px;
+}
+
+.fs87 {
+	font-size:					70px;
+}
+
+.fs88 {
+	font-size:					71px;
+}
+
+.fs89 {
+	font-size:					72px;
+}
+
+.fs90 {
+	font-size:					72px;
+}
+
+.fs91 {
+	font-size:					73px;
+}
+
+.fs92 {
+	font-size:					74px;
+}
+
+.fs93 {
+	font-size:					75px;
+}
+
+.fs94 {
+	font-size:					76px;
+}
+
+.fs95 {
+	font-size:					76px;
+}
+
+.fs96 {
+	font-size:					77px;
+}
+
+.fs97 {
+	font-size:					78px;
+}
+
+.fs98 {
+	font-size:					79px;
+}
+
+.fs99 {
+	font-size:					80px;
+}
+
+.fs100 {
+	font-size:					80px;
+}
+
+.fs101 {
+	font-size:					81px;
+}
+
+.fs102 {
+	font-size:					82px;
+}
+
+.fs103 {
+	font-size:					83px;
+}
+
+.fs104 {
+	font-size:					84px;
+}
+
+.fs105 {
+	font-size:					84px;
+}
+
+.fs106 {
+	font-size:					85px;
+}
+
+.fs107 {
+	font-size:					86px;
+}
+
+.fs108 {
+	font-size:					87px;
+}
+
+.fs109 {
+	font-size:					88px;
+}
+
+.fs110 {
+	font-size:					88px;
+}
+
+.fs111 {
+	font-size:					89px;
+}
+
+.fs112 {
+	font-size:					90px;
+}
+
+.fs113 {
+	font-size:					91px;
+}
+
+.fs114 {
+	font-size:					92px;
+}
+
+.fs115 {
+	font-size:					92px;
+}
+
+.fs116 {
+	font-size:					93px;
+}
+
+.fs117 {
+	font-size:					94px;
+}
+
+.fs118 {
+	font-size:					95px;
+}
+
+.fs119 {
+	font-size:					96px;
+}
+
+.fs120 {
+	font-size:					96px;
+}
+
+.fs121 {
+	font-size:					97px;
+}
+
+.fs122 {
+	font-size:					98px;
+}
+
+.fs123 {
+	font-size:					99px;
+}
+
+.fs124 {
+	font-size:					100px;
+}
+
+.fs125 {
+	font-size:					100px;
+}
+
+.fs126 {
+	font-size:					101px;
+}
+
+.fs127 {
+	font-size:					102px;
+}
+
+.fs128 {
+	font-size:					103px;
+}
+
+.fs129 {
+	font-size:					104px;
+}
+
+.fs130 {
+	font-size:					104px;
+}
+
+.fs131 {
+	font-size:					105px;
+}
+
+.fs132 {
+	font-size:					106px;
+}
+
+.fs133 {
+	font-size:					107px;
+}
+
+.fs134 {
+	font-size:					108px;
+}
+
+.fs135 {
+	font-size:					108px;
+}
+
+.fs136 {
+	font-size:					109px;
+}
+
+.fs137 {
+	font-size:					110px;
+}
+
+.fs138 {
+	font-size:					111px;
+}
+
+.fs139 {
+	font-size:					112px;
+}
+
+.fs140 {
+	font-size:					112px;
+}
+
+.fs141 {
+	font-size:					113px;
+}
+
+.fs142 {
+	font-size:					114px;
+}
+
+.fs143 {
+	font-size:					115px;
+}
+
+.fs144 {
+	font-size:					116px;
+}
+
+.fs145 {
+	font-size:					116px;
+}
+
+.fs146 {
+	font-size:					117px;
+}
+
+.fs147 {
+	font-size:					118px;
+}
+
+.fs148 {
+	font-size:					119px;
+}
+
+.fs149 {
+	font-size:					120px;
+}
+
+.fs150 {
+	font-size:					120px;
+}
+
+.fs151 {
+	font-size:					121px;
+}
+
+.fs152 {
+	font-size:					122px;
+}
+
+.fs153 {
+	font-size:					123px;
+}
+
+.fs154 {
+	font-size:					124px;
+}
+
+.fs155 {
+	font-size:					124px;
+}
+
+.fs156 {
+	font-size:					125px;
+}
+
+.fs157 {
+	font-size:					126px;
+}
+
+.fs158 {
+	font-size:					127px;
+}
+
+.fs159 {
+	font-size:					128px;
+}
+
+.fs160 {
+	font-size:					128px;
+}
+
+.fs161 {
+	font-size:					129px;
+}
+
+.fs162 {
+	font-size:					130px;
+}
+
+.fs163 {
+	font-size:					131px;
+}
+
+.fs164 {
+	font-size:					132px;
+}
+
+.fs165 {
+	font-size:					132px;
+}
+
+.fs166 {
+	font-size:					133px;
+}
+
+.fs167 {
+	font-size:					134px;
+}
+
+.fs168 {
+	font-size:					135px;
+}
+
+.fs169 {
+	font-size:					136px;
+}
+
+.fs170 {
+	font-size:					136px;
+}
+
+.fs171 {
+	font-size:					137px;
+}
+
+.fs172 {
+	font-size:					138px;
+}
+
+.fs173 {
+	font-size:					139px;
+}
+
+.fs174 {
+	font-size:					140px;
+}
+
+.fs175 {
+	font-size:					140px;
+}
+
+.fs176 {
+	font-size:					141px;
+}
+
+.fs177 {
+	font-size:					142px;
+}
+
+.fs178 {
+	font-size:					143px;
+}
+
+.fs179 {
+	font-size:					144px;
+}
+
+.fs180 {
+	font-size:					144px;
+}
+
+.fs181 {
+	font-size:					145px;
+}
+
+.fs182 {
+	font-size:					146px;
+}
+
+.fs183 {
+	font-size:					147px;
+}
+
+.fs184 {
+	font-size:					148px;
+}
+
+.fs185 {
+	font-size:					148px;
+}
+
+.fs186 {
+	font-size:					149px;
+}
+
+.fs187 {
+	font-size:					150px;
+}
+
+.fs188 {
+	font-size:					151px;
+}
+
+.fs189 {
+	font-size:					152px;
+}
+
+.fs190 {
+	font-size:					152px;
+}
+
+.fs191 {
+	font-size:					153px;
+}
+
+.fs192 {
+	font-size:					154px;
+}
+
+.fs193 {
+	font-size:					155px;
+}
+
+.fs194 {
+	font-size:					156px;
+}
+
+.fs195 {
+	font-size:					156px;
+}
+
+.fs196 {
+	font-size:					157px;
+}
+
+.fs197 {
+	font-size:					158px;
+}
+
+.fs198 {
+	font-size:					159px;
+}
+
+.fs199 {
+	font-size:					160px;
+}
+
+.fs200 {
+	font-size:					160px;
+}
+
+.fs201 {
+	font-size:					161px;
+}
+
+.fs202 {
+	font-size:					162px;
+}
+
+.fs203 {
+	font-size:					163px;
+}
+
+.fs204 {
+	font-size:					164px;
+}
+
+.fs205 {
+	font-size:					164px;
+}
+
+.fs206 {
+	font-size:					165px;
+}
+
+.fs207 {
+	font-size:					166px;
+}
+
+.fs208 {
+	font-size:					167px;
+}
+
+.fs209 {
+	font-size:					168px;
+}
+
+.fs210 {
+	font-size:					168px;
+}
+
+.fs211 {
+	font-size:					169px;
+}
+
+.fs212 {
+	font-size:					170px;
+}
+
+.fs213 {
+	font-size:					171px;
+}
+
+.fs214 {
+	font-size:					172px;
+}
+
+.fs215 {
+	font-size:					172px;
+}
+
+.fs216 {
+	font-size:					173px;
+}
+
+.fs217 {
+	font-size:					174px;
+}
+
+.fs218 {
+	font-size:					175px;
+}
+
+.fs219 {
+	font-size:					176px;
+}
+
+.fs220 {
+	font-size:					176px;
+}
+
+.fs221 {
+	font-size:					177px;
+}
+
+.fs222 {
+	font-size:					178px;
+}
+
+.fs223 {
+	font-size:					179px;
+}
+
+.fs224 {
+	font-size:					180px;
+}
+
+.fs225 {
+	font-size:					180px;
+}
+
+.fs226 {
+	font-size:					181px;
+}
+
+.fs227 {
+	font-size:					182px;
+}
+
+.fs228 {
+	font-size:					183px;
+}
+
+.fs229 {
+	font-size:					184px;
+}
+
+.fs230 {
+	font-size:					184px;
+}
+
+.fs231 {
+	font-size:					185px;
+}
+
+.fs232 {
+	font-size:					186px;
+}
+
+.fs233 {
+	font-size:					187px;
+}
+
+.fs234 {
+	font-size:					188px;
+}
+
+.fs235 {
+	font-size:					188px;
+}
+
+.fs236 {
+	font-size:					189px;
+}
+
+.fs237 {
+	font-size:					190px;
+}
+
+.fs238 {
+	font-size:					191px;
+}
+
+.fs239 {
+	font-size:					192px;
+}
+
+.fs240 {
+	font-size:					192px;
+}
+
+.fs241 {
+	font-size:					193px;
+}
+
+.fs242 {
+	font-size:					194px;
+}
+
+.fs243 {
+	font-size:					195px;
+}
+
+.fs244 {
+	font-size:					196px;
+}
+
+.fs245 {
+	font-size:					196px;
+}
+
+.fs246 {
+	font-size:					197px;
+}
+
+.fs247 {
+	font-size:					198px;
+}
+
+.fs248 {
+	font-size:					199px;
+}
+
+.fs249 {
+	font-size:					200px;
+}
+
+.fs250 {
+	font-size:					200px;
+}
+
+}
+
+
+@media (max-width: 748px) {
+
+
+/*
+.fs1 {
+	font-size:					1px;
+}
+
+.fs2 {
+	font-size:					2px;
+}
+
+.fs3 {
+	font-size:					2px;
+}
+
+.fs4 {
+	font-size:					3px;
+}
+
+.fs5 {
+	font-size:					3px;
+}
+
+.fs6 {
+	font-size:					4px;
+}
+
+.fs7 {
+	font-size:					5px;
+}
+
+.fs8 {
+	font-size:					5px;
+}
+
+.fs9 {
+	font-size:					6px;
+}
+
+.fs10 {
+	font-size:					6px;
+}
+
+.fs11 {
+	font-size:					7px;
+}
+
+.fs12 {
+	font-size:					8px;
+}
+
+.fs13 {
+	font-size:					8px;
+}
+
+.fs14 {
+	font-size:					9px;
+}
+
+.fs15 {
+	font-size:					9px;
+}
+
+.fs16 {
+	font-size:					10px;
+}
+
+.fs17 {
+	font-size:					11px;
+}
+
+.fs18 {
+	font-size:					11px;
+}
+
+.fs19 {
+	font-size:					12px;
+}
+
+.fs20 {
+	font-size:					12px;
+}
+
+.fs21 {
+	font-size:					13px;
+}
+
+.fs22 {
+	font-size:					14px;
+}
+
+.fs23 {
+	font-size:					14px;
+}
+
+.fs24 {
+	font-size:					15px;
+}
+
+.fs25 {
+	font-size:					15px;
+}
+
+.fs26 {
+	font-size:					16px;
+}
+
+.fs27 {
+	font-size:					17px;
+}
+
+.fs28 {
+	font-size:					17px;
+}
+
+.fs29 {
+	font-size:					18px;
+}*/
+
+.fs30 {
+	font-size:					18px;
+}
+
+.fs31 {
+	font-size:					19px;
+}
+
+.fs32 {
+	font-size:					20px;
+}
+
+.fs33 {
+	font-size:					20px;
+}
+
+.fs34 {
+	font-size:					21px;
+}
+
+.fs35 {
+	font-size:					21px;
+}
+
+.fs36 {
+	font-size:					22px;
+}
+
+.fs37 {
+	font-size:					23px;
+}
+
+.fs38 {
+	font-size:					23px;
+}
+
+.fs39 {
+	font-size:					24px;
+}
+
+.fs40 {
+	font-size:					24px;
+}
+
+.fs41 {
+	font-size:					25px;
+}
+
+.fs42 {
+	font-size:					26px;
+}
+
+.fs43 {
+	font-size:					26px;
+}
+
+.fs44 {
+	font-size:					27px;
+}
+
+.fs45 {
+	font-size:					27px;
+}
+
+.fs46 {
+	font-size:					28px;
+}
+
+.fs47 {
+	font-size:					29px;
+}
+
+.fs48 {
+	font-size:					29px;
+}
+
+.fs49 {
+	font-size:					30px;
+}
+
+.fs50 {
+	font-size:					30px;
+}
+
+.fs51 {
+	font-size:					31px;
+}
+
+.fs52 {
+	font-size:					32px;
+}
+
+.fs53 {
+	font-size:					32px;
+}
+
+.fs54 {
+	font-size:					33px;
+}
+
+.fs55 {
+	font-size:					33px;
+}
+
+.fs56 {
+	font-size:					34px;
+}
+
+.fs57 {
+	font-size:					35px;
+}
+
+.fs58 {
+	font-size:					35px;
+}
+
+.fs59 {
+	font-size:					36px;
+}
+
+.fs60 {
+	font-size:					36px;
+}
+
+.fs61 {
+	font-size:					37px;
+}
+
+.fs62 {
+	font-size:					38px;
+}
+
+.fs63 {
+	font-size:					38px;
+}
+
+.fs64 {
+	font-size:					39px;
+}
+
+.fs65 {
+	font-size:					39px;
+}
+
+.fs66 {
+	font-size:					40px;
+}
+
+.fs67 {
+	font-size:					41px;
+}
+
+.fs68 {
+	font-size:					41px;
+}
+
+.fs69 {
+	font-size:					42px;
+}
+
+.fs70 {
+	font-size:					42px;
+}
+
+.fs71 {
+	font-size:					43px;
+}
+
+.fs72 {
+	font-size:					44px;
+}
+
+.fs73 {
+	font-size:					44px;
+}
+
+.fs74 {
+	font-size:					45px;
+}
+
+.fs75 {
+	font-size:					45px;
+}
+
+.fs76 {
+	font-size:					46px;
+}
+
+.fs77 {
+	font-size:					47px;
+}
+
+.fs78 {
+	font-size:					47px;
+}
+
+.fs79 {
+	font-size:					48px;
+}
+
+.fs80 {
+	font-size:					48px;
+}
+
+.fs81 {
+	font-size:					49px;
+}
+
+.fs82 {
+	font-size:					50px;
+}
+
+.fs83 {
+	font-size:					50px;
+}
+
+.fs84 {
+	font-size:					51px;
+}
+
+.fs85 {
+	font-size:					51px;
+}
+
+.fs86 {
+	font-size:					52px;
+}
+
+.fs87 {
+	font-size:					53px;
+}
+
+.fs88 {
+	font-size:					53px;
+}
+
+.fs89 {
+	font-size:					54px;
+}
+
+.fs90 {
+	font-size:					54px;
+}
+
+.fs91 {
+	font-size:					55px;
+}
+
+.fs92 {
+	font-size:					56px;
+}
+
+.fs93 {
+	font-size:					56px;
+}
+
+.fs94 {
+	font-size:					57px;
+}
+
+.fs95 {
+	font-size:					57px;
+}
+
+.fs96 {
+	font-size:					58px;
+}
+
+.fs97 {
+	font-size:					59px;
+}
+
+.fs98 {
+	font-size:					59px;
+}
+
+.fs99 {
+	font-size:					60px;
+}
+
+.fs100 {
+	font-size:					60px;
+}
+
+.fs101 {
+	font-size:					61px;
+}
+
+.fs102 {
+	font-size:					62px;
+}
+
+.fs103 {
+	font-size:					62px;
+}
+
+.fs104 {
+	font-size:					63px;
+}
+
+.fs105 {
+	font-size:					63px;
+}
+
+.fs106 {
+	font-size:					64px;
+}
+
+.fs107 {
+	font-size:					65px;
+}
+
+.fs108 {
+	font-size:					65px;
+}
+
+.fs109 {
+	font-size:					66px;
+}
+
+.fs110 {
+	font-size:					66px;
+}
+
+.fs111 {
+	font-size:					67px;
+}
+
+.fs112 {
+	font-size:					68px;
+}
+
+.fs113 {
+	font-size:					68px;
+}
+
+.fs114 {
+	font-size:					69px;
+}
+
+.fs115 {
+	font-size:					69px;
+}
+
+.fs116 {
+	font-size:					70px;
+}
+
+.fs117 {
+	font-size:					71px;
+}
+
+.fs118 {
+	font-size:					71px;
+}
+
+.fs119 {
+	font-size:					72px;
+}
+
+.fs120 {
+	font-size:					72px;
+}
+
+.fs121 {
+	font-size:					73px;
+}
+
+.fs122 {
+	font-size:					74px;
+}
+
+.fs123 {
+	font-size:					74px;
+}
+
+.fs124 {
+	font-size:					75px;
+}
+
+.fs125 {
+	font-size:					75px;
+}
+
+.fs126 {
+	font-size:					76px;
+}
+
+.fs127 {
+	font-size:					77px;
+}
+
+.fs128 {
+	font-size:					77px;
+}
+
+.fs129 {
+	font-size:					78px;
+}
+
+.fs130 {
+	font-size:					78px;
+}
+
+.fs131 {
+	font-size:					79px;
+}
+
+.fs132 {
+	font-size:					80px;
+}
+
+.fs133 {
+	font-size:					80px;
+}
+
+.fs134 {
+	font-size:					81px;
+}
+
+.fs135 {
+	font-size:					81px;
+}
+
+.fs136 {
+	font-size:					82px;
+}
+
+.fs137 {
+	font-size:					83px;
+}
+
+.fs138 {
+	font-size:					83px;
+}
+
+.fs139 {
+	font-size:					84px;
+}
+
+.fs140 {
+	font-size:					84px;
+}
+
+.fs141 {
+	font-size:					85px;
+}
+
+.fs142 {
+	font-size:					86px;
+}
+
+.fs143 {
+	font-size:					86px;
+}
+
+.fs144 {
+	font-size:					87px;
+}
+
+.fs145 {
+	font-size:					87px;
+}
+
+.fs146 {
+	font-size:					88px;
+}
+
+.fs147 {
+	font-size:					89px;
+}
+
+.fs148 {
+	font-size:					89px;
+}
+
+.fs149 {
+	font-size:					90px;
+}
+
+.fs150 {
+	font-size:					90px;
+}
+
+.fs151 {
+	font-size:					91px;
+}
+
+.fs152 {
+	font-size:					92px;
+}
+
+.fs153 {
+	font-size:					92px;
+}
+
+.fs154 {
+	font-size:					93px;
+}
+
+.fs155 {
+	font-size:					93px;
+}
+
+.fs156 {
+	font-size:					94px;
+}
+
+.fs157 {
+	font-size:					95px;
+}
+
+.fs158 {
+	font-size:					95px;
+}
+
+.fs159 {
+	font-size:					96px;
+}
+
+.fs160 {
+	font-size:					96px;
+}
+
+.fs161 {
+	font-size:					97px;
+}
+
+.fs162 {
+	font-size:					98px;
+}
+
+.fs163 {
+	font-size:					98px;
+}
+
+.fs164 {
+	font-size:					99px;
+}
+
+.fs165 {
+	font-size:					99px;
+}
+
+.fs166 {
+	font-size:					100px;
+}
+
+.fs167 {
+	font-size:					101px;
+}
+
+.fs168 {
+	font-size:					101px;
+}
+
+.fs169 {
+	font-size:					102px;
+}
+
+.fs170 {
+	font-size:					102px;
+}
+
+.fs171 {
+	font-size:					103px;
+}
+
+.fs172 {
+	font-size:					104px;
+}
+
+.fs173 {
+	font-size:					104px;
+}
+
+.fs174 {
+	font-size:					105px;
+}
+
+.fs175 {
+	font-size:					105px;
+}
+
+.fs176 {
+	font-size:					106px;
+}
+
+.fs177 {
+	font-size:					107px;
+}
+
+.fs178 {
+	font-size:					107px;
+}
+
+.fs179 {
+	font-size:					108px;
+}
+
+.fs180 {
+	font-size:					108px;
+}
+
+.fs181 {
+	font-size:					109px;
+}
+
+.fs182 {
+	font-size:					110px;
+}
+
+.fs183 {
+	font-size:					110px;
+}
+
+.fs184 {
+	font-size:					111px;
+}
+
+.fs185 {
+	font-size:					111px;
+}
+
+.fs186 {
+	font-size:					112px;
+}
+
+.fs187 {
+	font-size:					113px;
+}
+
+.fs188 {
+	font-size:					113px;
+}
+
+.fs189 {
+	font-size:					114px;
+}
+
+.fs190 {
+	font-size:					114px;
+}
+
+.fs191 {
+	font-size:					115px;
+}
+
+.fs192 {
+	font-size:					116px;
+}
+
+.fs193 {
+	font-size:					116px;
+}
+
+.fs194 {
+	font-size:					117px;
+}
+
+.fs195 {
+	font-size:					117px;
+}
+
+.fs196 {
+	font-size:					118px;
+}
+
+.fs197 {
+	font-size:					119px;
+}
+
+.fs198 {
+	font-size:					119px;
+}
+
+.fs199 {
+	font-size:					120px;
+}
+
+.fs200 {
+	font-size:					120px;
+}
+
+.fs201 {
+	font-size:					121px;
+}
+
+.fs202 {
+	font-size:					122px;
+}
+
+.fs203 {
+	font-size:					122px;
+}
+
+.fs204 {
+	font-size:					123px;
+}
+
+.fs205 {
+	font-size:					123px;
+}
+
+.fs206 {
+	font-size:					124px;
+}
+
+.fs207 {
+	font-size:					125px;
+}
+
+.fs208 {
+	font-size:					125px;
+}
+
+.fs209 {
+	font-size:					126px;
+}
+
+.fs210 {
+	font-size:					126px;
+}
+
+.fs211 {
+	font-size:					127px;
+}
+
+.fs212 {
+	font-size:					128px;
+}
+
+.fs213 {
+	font-size:					128px;
+}
+
+.fs214 {
+	font-size:					129px;
+}
+
+.fs215 {
+	font-size:					129px;
+}
+
+.fs216 {
+	font-size:					130px;
+}
+
+.fs217 {
+	font-size:					131px;
+}
+
+.fs218 {
+	font-size:					131px;
+}
+
+.fs219 {
+	font-size:					132px;
+}
+
+.fs220 {
+	font-size:					132px;
+}
+
+.fs221 {
+	font-size:					133px;
+}
+
+.fs222 {
+	font-size:					134px;
+}
+
+.fs223 {
+	font-size:					134px;
+}
+
+.fs224 {
+	font-size:					135px;
+}
+
+.fs225 {
+	font-size:					135px;
+}
+
+.fs226 {
+	font-size:					136px;
+}
+
+.fs227 {
+	font-size:					137px;
+}
+
+.fs228 {
+	font-size:					137px;
+}
+
+.fs229 {
+	font-size:					138px;
+}
+
+.fs230 {
+	font-size:					138px;
+}
+
+.fs231 {
+	font-size:					139px;
+}
+
+.fs232 {
+	font-size:					140px;
+}
+
+.fs233 {
+	font-size:					140px;
+}
+
+.fs234 {
+	font-size:					141px;
+}
+
+.fs235 {
+	font-size:					141px;
+}
+
+.fs236 {
+	font-size:					142px;
+}
+
+.fs237 {
+	font-size:					143px;
+}
+
+.fs238 {
+	font-size:					143px;
+}
+
+.fs239 {
+	font-size:					144px;
+}
+
+.fs240 {
+	font-size:					144px;
+}
+
+.fs241 {
+	font-size:					145px;
+}
+
+.fs242 {
+	font-size:					146px;
+}
+
+.fs243 {
+	font-size:					146px;
+}
+
+.fs244 {
+	font-size:					147px;
+}
+
+.fs245 {
+	font-size:					147px;
+}
+
+.fs246 {
+	font-size:					148px;
+}
+
+.fs247 {
+	font-size:					149px;
+}
+
+.fs248 {
+	font-size:					149px;
+}
+
+.fs249 {
+	font-size:					150px;
+}
+
+.fs250 {
+	font-size:					150px;
+}
+
+
+
+}
+
+
+@media (min-width: 1600px) {
+
+
+
+
+
+
+
+.fs1 {
+	font-size:					1px;
+}
+
+.fs2 {
+	font-size:					2px;
+}
+
+.fs3 {
+	font-size:					3px;
+}
+
+.fs4 {
+	font-size:					4px;
+}
+
+.fs5 {
+	font-size:					5px;
+}
+
+.fs6 {
+	font-size:					6px;
+}
+
+.fs7 {
+	font-size:					7px;
+}
+
+.fs8 {
+	font-size:					8px;
+}
+
+.fs9 {
+	font-size:					9px;
+}
+
+.fs10 {
+	font-size:					9px;
+}
+
+.fs11 {
+	font-size:					10px;
+}
+
+.fs12 {
+	font-size:					11px;
+}
+
+.fs13 {
+	font-size:					12px;
+}
+
+.fs14 {
+	font-size:					13px;
+}
+
+.fs15 {
+	font-size:					14px;
+}
+
+.fs16 {
+	font-size:					15px;
+}
+
+.fs17 {
+	font-size:					16px;
+}
+
+.fs18 {
+	font-size:					17px;
+}
+
+.fs19 {
+	font-size:					18px;
+}
+
+.fs20 {
+	font-size:					18px;
+}
+
+.fs21 {
+	font-size:					19px;
+}
+
+.fs22 {
+	font-size:					20px;
+}
+
+.fs23 {
+	font-size:					21px;
+}
+
+.fs24 {
+	font-size:					22px;
+}
+
+.fs25 {
+	font-size:					23px;
+}
+
+.fs26 {
+	font-size:					24px;
+}
+
+.fs27 {
+	font-size:					25px;
+}
+
+.fs28 {
+	font-size:					26px;
+}
+
+.fs29 {
+	font-size:					27px;
+}
+
+.fs30 {
+	font-size:					27px;
+}
+
+.fs31 {
+	font-size:					28px;
+}
+
+.fs32 {
+	font-size:					29px;
+}
+
+.fs33 {
+	font-size:					30px;
+}
+
+.fs34 {
+	font-size:					31px;
+}
+
+.fs35 {
+	font-size:					32px;
+}
+
+.fs36 {
+	font-size:					33px;
+}
+
+.fs37 {
+	font-size:					34px;
+}
+
+.fs38 {
+	font-size:					35px;
+}
+
+.fs39 {
+	font-size:					36px;
+}
+
+.fs40 {
+	font-size:					36px;
+}
+
+.fs41 {
+	font-size:					37px;
+}
+
+.fs42 {
+	font-size:					38px;
+}
+
+.fs43 {
+	font-size:					39px;
+}
+
+.fs44 {
+	font-size:					40px;
+}
+
+.fs45 {
+	font-size:					41px;
+}
+
+.fs46 {
+	font-size:					42px;
+}
+
+.fs47 {
+	font-size:					43px;
+}
+
+.fs48 {
+	font-size:					44px;
+}
+
+.fs49 {
+	font-size:					45px;
+}
+
+.fs50 {
+	font-size:					45px;
+}
+
+.fs51 {
+	font-size:					46px;
+}
+
+.fs52 {
+	font-size:					47px;
+}
+
+.fs53 {
+	font-size:					48px;
+}
+
+.fs54 {
+	font-size:					49px;
+}
+
+.fs55 {
+	font-size:					50px;
+}
+
+.fs56 {
+	font-size:					51px;
+}
+
+.fs57 {
+	font-size:					52px;
+}
+
+.fs58 {
+	font-size:					53px;
+}
+
+.fs59 {
+	font-size:					54px;
+}
+
+.fs60 {
+	font-size:					54px;
+}
+
+.fs61 {
+	font-size:					55px;
+}
+
+.fs62 {
+	font-size:					56px;
+}
+
+.fs63 {
+	font-size:					57px;
+}
+
+.fs64 {
+	font-size:					58px;
+}
+
+.fs65 {
+	font-size:					59px;
+}
+
+.fs66 {
+	font-size:					60px;
+}
+
+.fs67 {
+	font-size:					61px;
+}
+
+.fs68 {
+	font-size:					62px;
+}
+
+.fs69 {
+	font-size:					63px;
+}
+
+.fs70 {
+	font-size:					63px;
+}
+
+.fs71 {
+	font-size:					64px;
+}
+
+.fs72 {
+	font-size:					65px;
+}
+
+.fs73 {
+	font-size:					66px;
+}
+
+.fs74 {
+	font-size:					67px;
+}
+
+.fs75 {
+	font-size:					68px;
+}
+
+.fs76 {
+	font-size:					69px;
+}
+
+.fs77 {
+	font-size:					70px;
+}
+
+.fs78 {
+	font-size:					71px;
+}
+
+.fs79 {
+	font-size:					72px;
+}
+
+.fs80 {
+	font-size:					72px;
+}
+
+.fs81 {
+	font-size:					73px;
+}
+
+.fs82 {
+	font-size:					74px;
+}
+
+.fs83 {
+	font-size:					75px;
+}
+
+.fs84 {
+	font-size:					76px;
+}
+
+.fs85 {
+	font-size:					77px;
+}
+
+.fs86 {
+	font-size:					78px;
+}
+
+.fs87 {
+	font-size:					79px;
+}
+
+.fs88 {
+	font-size:					80px;
+}
+
+.fs89 {
+	font-size:					81px;
+}
+
+.fs90 {
+	font-size:					81px;
+}
+
+.fs91 {
+	font-size:					82px;
+}
+
+.fs92 {
+	font-size:					83px;
+}
+
+.fs93 {
+	font-size:					84px;
+}
+
+.fs94 {
+	font-size:					85px;
+}
+
+.fs95 {
+	font-size:					86px;
+}
+
+.fs96 {
+	font-size:					87px;
+}
+
+.fs97 {
+	font-size:					88px;
+}
+
+.fs98 {
+	font-size:					89px;
+}
+
+.fs99 {
+	font-size:					90px;
+}
+
+.fs100 {
+	font-size:					90px;
+}
+
+.fs101 {
+	font-size:					91px;
+}
+
+.fs102 {
+	font-size:					92px;
+}
+
+.fs103 {
+	font-size:					93px;
+}
+
+.fs104 {
+	font-size:					94px;
+}
+
+.fs105 {
+	font-size:					95px;
+}
+
+.fs106 {
+	font-size:					96px;
+}
+
+.fs107 {
+	font-size:					97px;
+}
+
+.fs108 {
+	font-size:					98px;
+}
+
+.fs109 {
+	font-size:					99px;
+}
+
+.fs110 {
+	font-size:					99px;
+}
+
+.fs111 {
+	font-size:					100px;
+}
+
+.fs112 {
+	font-size:					101px;
+}
+
+.fs113 {
+	font-size:					102px;
+}
+
+.fs114 {
+	font-size:					103px;
+}
+
+.fs115 {
+	font-size:					104px;
+}
+
+.fs116 {
+	font-size:					105px;
+}
+
+.fs117 {
+	font-size:					106px;
+}
+
+.fs118 {
+	font-size:					107px;
+}
+
+.fs119 {
+	font-size:					108px;
+}
+
+.fs120 {
+	font-size:					108px;
+}
+
+.fs121 {
+	font-size:					109px;
+}
+
+.fs122 {
+	font-size:					110px;
+}
+
+.fs123 {
+	font-size:					111px;
+}
+
+.fs124 {
+	font-size:					112px;
+}
+
+.fs125 {
+	font-size:					113px;
+}
+
+.fs126 {
+	font-size:					114px;
+}
+
+.fs127 {
+	font-size:					115px;
+}
+
+.fs128 {
+	font-size:					116px;
+}
+
+.fs129 {
+	font-size:					117px;
+}
+
+.fs130 {
+	font-size:					117px;
+}
+
+.fs131 {
+	font-size:					118px;
+}
+
+.fs132 {
+	font-size:					119px;
+}
+
+.fs133 {
+	font-size:					120px;
+}
+
+.fs134 {
+	font-size:					121px;
+}
+
+.fs135 {
+	font-size:					122px;
+}
+
+.fs136 {
+	font-size:					123px;
+}
+
+.fs137 {
+	font-size:					124px;
+}
+
+.fs138 {
+	font-size:					125px;
+}
+
+.fs139 {
+	font-size:					126px;
+}
+
+.fs140 {
+	font-size:					126px;
+}
+
+.fs141 {
+	font-size:					127px;
+}
+
+.fs142 {
+	font-size:					128px;
+}
+
+.fs143 {
+	font-size:					129px;
+}
+
+.fs144 {
+	font-size:					130px;
+}
+
+.fs145 {
+	font-size:					131px;
+}
+
+.fs146 {
+	font-size:					132px;
+}
+
+.fs147 {
+	font-size:					133px;
+}
+
+.fs148 {
+	font-size:					134px;
+}
+
+.fs149 {
+	font-size:					135px;
+}
+
+.fs150 {
+	font-size:					135px;
+}
+
+.fs151 {
+	font-size:					136px;
+}
+
+.fs152 {
+	font-size:					137px;
+}
+
+.fs153 {
+	font-size:					138px;
+}
+
+.fs154 {
+	font-size:					139px;
+}
+
+.fs155 {
+	font-size:					140px;
+}
+
+.fs156 {
+	font-size:					141px;
+}
+
+.fs157 {
+	font-size:					142px;
+}
+
+.fs158 {
+	font-size:					143px;
+}
+
+.fs159 {
+	font-size:					144px;
+}
+
+.fs160 {
+	font-size:					144px;
+}
+
+.fs161 {
+	font-size:					145px;
+}
+
+.fs162 {
+	font-size:					146px;
+}
+
+.fs163 {
+	font-size:					147px;
+}
+
+.fs164 {
+	font-size:					148px;
+}
+
+.fs165 {
+	font-size:					149px;
+}
+
+.fs166 {
+	font-size:					150px;
+}
+
+.fs167 {
+	font-size:					151px;
+}
+
+.fs168 {
+	font-size:					152px;
+}
+
+.fs169 {
+	font-size:					153px;
+}
+
+.fs170 {
+	font-size:					153px;
+}
+
+.fs171 {
+	font-size:					154px;
+}
+
+.fs172 {
+	font-size:					155px;
+}
+
+.fs173 {
+	font-size:					156px;
+}
+
+.fs174 {
+	font-size:					157px;
+}
+
+.fs175 {
+	font-size:					158px;
+}
+
+.fs176 {
+	font-size:					159px;
+}
+
+.fs177 {
+	font-size:					160px;
+}
+
+.fs178 {
+	font-size:					161px;
+}
+
+.fs179 {
+	font-size:					162px;
+}
+
+.fs180 {
+	font-size:					162px;
+}
+
+.fs181 {
+	font-size:					163px;
+}
+
+.fs182 {
+	font-size:					164px;
+}
+
+.fs183 {
+	font-size:					165px;
+}
+
+.fs184 {
+	font-size:					166px;
+}
+
+.fs185 {
+	font-size:					167px;
+}
+
+.fs186 {
+	font-size:					168px;
+}
+
+.fs187 {
+	font-size:					169px;
+}
+
+.fs188 {
+	font-size:					170px;
+}
+
+.fs189 {
+	font-size:					171px;
+}
+
+.fs190 {
+	font-size:					171px;
+}
+
+.fs191 {
+	font-size:					172px;
+}
+
+.fs192 {
+	font-size:					173px;
+}
+
+.fs193 {
+	font-size:					174px;
+}
+
+.fs194 {
+	font-size:					175px;
+}
+
+.fs195 {
+	font-size:					176px;
+}
+
+.fs196 {
+	font-size:					177px;
+}
+
+.fs197 {
+	font-size:					178px;
+}
+
+.fs198 {
+	font-size:					179px;
+}
+
+.fs199 {
+	font-size:					180px;
+}
+
+.fs200 {
+	font-size:					180px;
+}
+
+.fs201 {
+	font-size:					181px;
+}
+
+.fs202 {
+	font-size:					182px;
+}
+
+.fs203 {
+	font-size:					183px;
+}
+
+.fs204 {
+	font-size:					184px;
+}
+
+.fs205 {
+	font-size:					185px;
+}
+
+.fs206 {
+	font-size:					186px;
+}
+
+.fs207 {
+	font-size:					187px;
+}
+
+.fs208 {
+	font-size:					188px;
+}
+
+.fs209 {
+	font-size:					189px;
+}
+
+.fs210 {
+	font-size:					189px;
+}
+
+.fs211 {
+	font-size:					190px;
+}
+
+.fs212 {
+	font-size:					191px;
+}
+
+.fs213 {
+	font-size:					192px;
+}
+
+.fs214 {
+	font-size:					193px;
+}
+
+.fs215 {
+	font-size:					194px;
+}
+
+.fs216 {
+	font-size:					195px;
+}
+
+.fs217 {
+	font-size:					196px;
+}
+
+.fs218 {
+	font-size:					197px;
+}
+
+.fs219 {
+	font-size:					198px;
+}
+
+.fs220 {
+	font-size:					198px;
+}
+
+.fs221 {
+	font-size:					199px;
+}
+
+.fs222 {
+	font-size:					200px;
+}
+
+.fs223 {
+	font-size:					201px;
+}
+
+.fs224 {
+	font-size:					202px;
+}
+
+.fs225 {
+	font-size:					203px;
+}
+
+.fs226 {
+	font-size:					204px;
+}
+
+.fs227 {
+	font-size:					205px;
+}
+
+.fs228 {
+	font-size:					206px;
+}
+
+.fs229 {
+	font-size:					207px;
+}
+
+.fs230 {
+	font-size:					207px;
+}
+
+.fs231 {
+	font-size:					208px;
+}
+
+.fs232 {
+	font-size:					209px;
+}
+
+.fs233 {
+	font-size:					210px;
+}
+
+.fs234 {
+	font-size:					211px;
+}
+
+.fs235 {
+	font-size:					212px;
+}
+
+.fs236 {
+	font-size:					213px;
+}
+
+.fs237 {
+	font-size:					214px;
+}
+
+.fs238 {
+	font-size:					215px;
+}
+
+.fs239 {
+	font-size:					216px;
+}
+
+.fs240 {
+	font-size:					216px;
+}
+
+.fs241 {
+	font-size:					217px;
+}
+
+.fs242 {
+	font-size:					218px;
+}
+
+.fs243 {
+	font-size:					219px;
+}
+
+.fs244 {
+	font-size:					220px;
+}
+
+.fs245 {
+	font-size:					221px;
+}
+
+.fs246 {
+	font-size:					222px;
+}
+
+.fs247 {
+	font-size:					223px;
+}
+
+.fs248 {
+	font-size:					224px;
+}
+
+.fs249 {
+	font-size:					225px;
+}
+
+.fs250 {
+	font-size:					225px;
+}
+
+}
+
+
+
+@media (min-width: 1920px) {
+
+.fs1 {
+	font-size:					1px;
+}
+
+.fs2 {
+	font-size:					2px;
+}
+
+.fs3 {
+	font-size:					3px;
+}
+
+.fs4 {
+	font-size:					4px;
+}
+
+.fs5 {
+	font-size:					5px;
+}
+
+.fs6 {
+	font-size:					6px;
+}
+
+.fs7 {
+	font-size:					7px;
+}
+
+.fs8 {
+	font-size:					8px;
+}
+
+.fs9 {
+	font-size:					9px;
+}
+
+.fs10 {
+	font-size:					10px;
+}
+
+.fs11 {
+	font-size:					11px;
+}
+
+.fs12 {
+	font-size:					12px;
+}
+
+.fs13 {
+	font-size:					13px;
+}
+
+.fs14 {
+	font-size:					14px;
+}
+
+.fs15 {
+	font-size:					15px;
+}
+
+.fs16 {
+	font-size:					16px;
+}
+
+.fs17 {
+	font-size:					17px;
+}
+
+.fs18 {
+	font-size:					18px;
+}
+
+.fs19 {
+	font-size:					19px;
+}
+
+.fs20 {
+	font-size:					20px;
+}
+
+.fs21 {
+	font-size:					21px;
+}
+
+.fs22 {
+	font-size:					22px;
+}
+
+.fs23 {
+	font-size:					23px;
+}
+
+.fs24 {
+	font-size:					24px;
+}
+
+.fs25 {
+	font-size:					25px;
+}
+
+.fs26 {
+	font-size:					26px;
+}
+
+.fs27 {
+	font-size:					27px;
+}
+
+.fs28 {
+	font-size:					28px;
+}
+
+.fs29 {
+	font-size:					29px;
+}
+
+.fs30 {
+	font-size:					30px;
+}
+
+.fs31 {
+	font-size:					31px;
+}
+
+.fs32 {
+	font-size:					32px;
+}
+
+.fs33 {
+	font-size:					33px;
+}
+
+.fs34 {
+	font-size:					34px;
+}
+
+.fs35 {
+	font-size:					35px;
+}
+
+.fs36 {
+	font-size:					36px;
+}
+
+.fs37 {
+	font-size:					37px;
+}
+
+.fs38 {
+	font-size:					38px;
+}
+
+.fs39 {
+	font-size:					39px;
+}
+
+.fs40 {
+	font-size:					40px;
+}
+
+.fs41 {
+	font-size:					41px;
+}
+
+.fs42 {
+	font-size:					42px;
+}
+
+.fs43 {
+	font-size:					43px;
+}
+
+.fs44 {
+	font-size:					44px;
+}
+
+.fs45 {
+	font-size:					45px;
+}
+
+.fs46 {
+	font-size:					46px;
+}
+
+.fs47 {
+	font-size:					47px;
+}
+
+.fs48 {
+	font-size:					48px;
+}
+
+.fs49 {
+	font-size:					49px;
+}
+
+.fs50 {
+	font-size:					50px;
+}
+
+.fs51 {
+	font-size:					51px;
+}
+
+.fs52 {
+	font-size:					52px;
+}
+
+.fs53 {
+	font-size:					53px;
+}
+
+.fs54 {
+	font-size:					54px;
+}
+
+.fs55 {
+	font-size:					55px;
+}
+
+.fs56 {
+	font-size:					56px;
+}
+
+.fs57 {
+	font-size:					57px;
+}
+
+.fs58 {
+	font-size:					58px;
+}
+
+.fs59 {
+	font-size:					59px;
+}
+
+.fs60 {
+	font-size:					60px;
+}
+
+.fs61 {
+	font-size:					61px;
+}
+
+.fs62 {
+	font-size:					62px;
+}
+
+.fs63 {
+	font-size:					63px;
+}
+
+.fs64 {
+	font-size:					64px;
+}
+
+.fs65 {
+	font-size:					65px;
+}
+
+.fs66 {
+	font-size:					66px;
+}
+
+.fs67 {
+	font-size:					67px;
+}
+
+.fs68 {
+	font-size:					68px;
+}
+
+.fs69 {
+	font-size:					69px;
+}
+
+.fs70 {
+	font-size:					70px;
+}
+
+.fs71 {
+	font-size:					71px;
+}
+
+.fs72 {
+	font-size:					72px;
+}
+
+.fs73 {
+	font-size:					73px;
+}
+
+.fs74 {
+	font-size:					74px;
+}
+
+.fs75 {
+	font-size:					75px;
+}
+
+.fs76 {
+	font-size:					76px;
+}
+
+.fs77 {
+	font-size:					77px;
+}
+
+.fs78 {
+	font-size:					78px;
+}
+
+.fs79 {
+	font-size:					79px;
+}
+
+.fs80 {
+	font-size:					80px;
+}
+
+.fs81 {
+	font-size:					81px;
+}
+
+.fs82 {
+	font-size:					82px;
+}
+
+.fs83 {
+	font-size:					83px;
+}
+
+.fs84 {
+	font-size:					84px;
+}
+
+.fs85 {
+	font-size:					85px;
+}
+
+.fs86 {
+	font-size:					86px;
+}
+
+.fs87 {
+	font-size:					87px;
+}
+
+.fs88 {
+	font-size:					88px;
+}
+
+.fs89 {
+	font-size:					89px;
+}
+
+.fs90 {
+	font-size:					90px;
+}
+
+.fs91 {
+	font-size:					91px;
+}
+
+.fs92 {
+	font-size:					92px;
+}
+
+.fs93 {
+	font-size:					93px;
+}
+
+.fs94 {
+	font-size:					94px;
+}
+
+.fs95 {
+	font-size:					95px;
+}
+
+.fs96 {
+	font-size:					96px;
+}
+
+.fs97 {
+	font-size:					97px;
+}
+
+.fs98 {
+	font-size:					98px;
+}
+
+.fs99 {
+	font-size:					99px;
+}
+
+.fs100 {
+	font-size:					100px;
+}
+
+.fs101 {
+	font-size:					101px;
+}
+
+.fs102 {
+	font-size:					102px;
+}
+
+.fs103 {
+	font-size:					103px;
+}
+
+.fs104 {
+	font-size:					104px;
+}
+
+.fs105 {
+	font-size:					105px;
+}
+
+.fs106 {
+	font-size:					106px;
+}
+
+.fs107 {
+	font-size:					107px;
+}
+
+.fs108 {
+	font-size:					108px;
+}
+
+.fs109 {
+	font-size:					109px;
+}
+
+.fs110 {
+	font-size:					110px;
+}
+
+.fs111 {
+	font-size:					111px;
+}
+
+.fs112 {
+	font-size:					112px;
+}
+
+.fs113 {
+	font-size:					113px;
+}
+
+.fs114 {
+	font-size:					114px;
+}
+
+.fs115 {
+	font-size:					115px;
+}
+
+.fs116 {
+	font-size:					116px;
+}
+
+.fs117 {
+	font-size:					117px;
+}
+
+.fs118 {
+	font-size:					118px;
+}
+
+.fs119 {
+	font-size:					119px;
+}
+
+.fs120 {
+	font-size:					120px;
+}
+
+.fs121 {
+	font-size:					121px;
+}
+
+.fs122 {
+	font-size:					122px;
+}
+
+.fs123 {
+	font-size:					123px;
+}
+
+.fs124 {
+	font-size:					124px;
+}
+
+.fs125 {
+	font-size:					125px;
+}
+
+.fs126 {
+	font-size:					126px;
+}
+
+.fs127 {
+	font-size:					127px;
+}
+
+.fs128 {
+	font-size:					128px;
+}
+
+.fs129 {
+	font-size:					129px;
+}
+
+.fs130 {
+	font-size:					130px;
+}
+
+.fs131 {
+	font-size:					131px;
+}
+
+.fs132 {
+	font-size:					132px;
+}
+
+.fs133 {
+	font-size:					133px;
+}
+
+.fs134 {
+	font-size:					134px;
+}
+
+.fs135 {
+	font-size:					135px;
+}
+
+.fs136 {
+	font-size:					136px;
+}
+
+.fs137 {
+	font-size:					137px;
+}
+
+.fs138 {
+	font-size:					138px;
+}
+
+.fs139 {
+	font-size:					139px;
+}
+
+.fs140 {
+	font-size:					140px;
+}
+
+.fs141 {
+	font-size:					141px;
+}
+
+.fs142 {
+	font-size:					142px;
+}
+
+.fs143 {
+	font-size:					143px;
+}
+
+.fs144 {
+	font-size:					144px;
+}
+
+.fs145 {
+	font-size:					145px;
+}
+
+.fs146 {
+	font-size:					146px;
+}
+
+.fs147 {
+	font-size:					147px;
+}
+
+.fs148 {
+	font-size:					148px;
+}
+
+.fs149 {
+	font-size:					149px;
+}
+
+.fs150 {
+	font-size:					150px;
+}
+
+.fs151 {
+	font-size:					151px;
+}
+
+.fs152 {
+	font-size:					152px;
+}
+
+.fs153 {
+	font-size:					153px;
+}
+
+.fs154 {
+	font-size:					154px;
+}
+
+.fs155 {
+	font-size:					155px;
+}
+
+.fs156 {
+	font-size:					156px;
+}
+
+.fs157 {
+	font-size:					157px;
+}
+
+.fs158 {
+	font-size:					158px;
+}
+
+.fs159 {
+	font-size:					159px;
+}
+
+.fs160 {
+	font-size:					160px;
+}
+
+.fs161 {
+	font-size:					161px;
+}
+
+.fs162 {
+	font-size:					162px;
+}
+
+.fs163 {
+	font-size:					163px;
+}
+
+.fs164 {
+	font-size:					164px;
+}
+
+.fs165 {
+	font-size:					165px;
+}
+
+.fs166 {
+	font-size:					166px;
+}
+
+.fs167 {
+	font-size:					167px;
+}
+
+.fs168 {
+	font-size:					168px;
+}
+
+.fs169 {
+	font-size:					169px;
+}
+
+.fs170 {
+	font-size:					170px;
+}
+
+.fs171 {
+	font-size:					171px;
+}
+
+.fs172 {
+	font-size:					172px;
+}
+
+.fs173 {
+	font-size:					173px;
+}
+
+.fs174 {
+	font-size:					174px;
+}
+
+.fs175 {
+	font-size:					175px;
+}
+
+.fs176 {
+	font-size:					176px;
+}
+
+.fs177 {
+	font-size:					177px;
+}
+
+.fs178 {
+	font-size:					178px;
+}
+
+.fs179 {
+	font-size:					179px;
+}
+
+.fs180 {
+	font-size:					180px;
+}
+
+.fs181 {
+	font-size:					181px;
+}
+
+.fs182 {
+	font-size:					182px;
+}
+
+.fs183 {
+	font-size:					183px;
+}
+
+.fs184 {
+	font-size:					184px;
+}
+
+.fs185 {
+	font-size:					185px;
+}
+
+.fs186 {
+	font-size:					186px;
+}
+
+.fs187 {
+	font-size:					187px;
+}
+
+.fs188 {
+	font-size:					188px;
+}
+
+.fs189 {
+	font-size:					189px;
+}
+
+.fs190 {
+	font-size:					190px;
+}
+
+.fs191 {
+	font-size:					191px;
+}
+
+.fs192 {
+	font-size:					192px;
+}
+
+.fs193 {
+	font-size:					193px;
+}
+
+.fs194 {
+	font-size:					194px;
+}
+
+.fs195 {
+	font-size:					195px;
+}
+
+.fs196 {
+	font-size:					196px;
+}
+
+.fs197 {
+	font-size:					197px;
+}
+
+.fs198 {
+	font-size:					198px;
+}
+
+.fs199 {
+	font-size:					199px;
+}
+
+.fs200 {
+	font-size:					200px;
+}
+
+.fs201 {
+	font-size:					201px;
+}
+
+.fs202 {
+	font-size:					202px;
+}
+
+.fs203 {
+	font-size:					203px;
+}
+
+.fs204 {
+	font-size:					204px;
+}
+
+.fs205 {
+	font-size:					205px;
+}
+
+.fs206 {
+	font-size:					206px;
+}
+
+.fs207 {
+	font-size:					207px;
+}
+
+.fs208 {
+	font-size:					208px;
+}
+
+.fs209 {
+	font-size:					209px;
+}
+
+.fs210 {
+	font-size:					210px;
+}
+
+.fs211 {
+	font-size:					211px;
+}
+
+.fs212 {
+	font-size:					212px;
+}
+
+.fs213 {
+	font-size:					213px;
+}
+
+.fs214 {
+	font-size:					214px;
+}
+
+.fs215 {
+	font-size:					215px;
+}
+
+.fs216 {
+	font-size:					216px;
+}
+
+.fs217 {
+	font-size:					217px;
+}
+
+.fs218 {
+	font-size:					218px;
+}
+
+.fs219 {
+	font-size:					219px;
+}
+
+.fs220 {
+	font-size:					220px;
+}
+
+.fs221 {
+	font-size:					221px;
+}
+
+.fs222 {
+	font-size:					222px;
+}
+
+.fs223 {
+	font-size:					223px;
+}
+
+.fs224 {
+	font-size:					224px;
+}
+
+.fs225 {
+	font-size:					225px;
+}
+
+.fs226 {
+	font-size:					226px;
+}
+
+.fs227 {
+	font-size:					227px;
+}
+
+.fs228 {
+	font-size:					228px;
+}
+
+.fs229 {
+	font-size:					229px;
+}
+
+.fs230 {
+	font-size:					230px;
+}
+
+.fs231 {
+	font-size:					231px;
+}
+
+.fs232 {
+	font-size:					232px;
+}
+
+.fs233 {
+	font-size:					233px;
+}
+
+.fs234 {
+	font-size:					234px;
+}
+
+.fs235 {
+	font-size:					235px;
+}
+
+.fs236 {
+	font-size:					236px;
+}
+
+.fs237 {
+	font-size:					237px;
+}
+
+.fs238 {
+	font-size:					238px;
+}
+
+.fs239 {
+	font-size:					239px;
+}
+
+.fs240 {
+	font-size:					240px;
+}
+
+.fs241 {
+	font-size:					241px;
+}
+
+.fs242 {
+	font-size:					242px;
+}
+
+.fs243 {
+	font-size:					243px;
+}
+
+.fs244 {
+	font-size:					244px;
+}
+
+.fs245 {
+	font-size:					245px;
+}
+
+.fs246 {
+	font-size:					246px;
+}
+
+.fs247 {
+	font-size:					247px;
+}
+
+.fs248 {
+	font-size:					248px;
+}
+
+.fs249 {
+	font-size:					249px;
+}
+
+.fs250 {
+	font-size:					250px;
+}
+
+}
