@@ -250,6 +250,10 @@ body {
     z-index: 10;
 }
 
+.logo-admin img{
+    width: 50%;
+}
+
 .logo {}
 
 .row {
@@ -307,6 +311,10 @@ h1 {
 .login {
     float: right;
     margin-top: 20px;
+}
+
+.login-admin {
+    float: right;
 }
 
 a:hover {
@@ -554,6 +562,18 @@ a:hover .box {
 .social a.google:hover {
     background-image: url("images/google-hover.png");
 }
+.header-admin{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.header-admin .logo{
+
+    margin-top: 0;
+}
 
 .menu {
     width: 29px;
@@ -567,6 +587,144 @@ a:hover .box {
     margin-right: 20px;
 }
 
+.menu-left{
+
+    display: flex;
+    align-content: center;
+    width: 26.5%;
+    justify-content: space-around;
+}
+.menu-admin {
+    width: 29px;
+    height: 14px;
+    background-image: url("images/menu.png");
+    background-size: contain;
+    display: inline-block;
+    background-repeat: no-repeat;
+    float: right;
+    background-color: transparent;
+    border: unset;
+}
+
+.botton-transparent{
+
+    background-color: transparent;
+    border: unset;
+}
+
+.botton-transparent.cancel img{
+
+    width: 1.1em;
+}
+
+.iconos-sidebar{
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 2em;
+    margin-top: 1em;
+    margin-bottom: 5em;
+}
+
+.iconos-sidebar .avion-inclinada{
+
+    width: 13%;
+}
+
+.iconos-sidebar .avion-inclinada img{
+
+    width: 75%;
+}
+
+.breadcrumbs{
+
+    width: 27%;
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.breadcrumbs span:first-child{
+
+  color: rgba(255, 255, 255, .8);
+}
+.content.page .title h1{
+
+    font-size: 4em;
+    color: #fff;
+    font-weight: lighter;
+}
+.content.page .title span{
+
+    text-transform: uppercase;
+}
+
+.content.page .controles{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.content.page .filtros{
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.filtros select{
+
+    min-width: 35%;
+    background-color: rgb(6, 77, 141);
+    font-weight: 500;
+    color: #fff;
+    border-radius: 0;
+    border-right: 1px solid #000;
+    background-image: url("images/arrow_down_01.png");
+    background-repeat: no-repeat, repeat;
+    background-position: right .7em top 50%, 0 0;
+    background-size: auto, 100%;
+}
+
+.controles .btn-default{
+
+    background-color: #8D97A1;
+    color: #fff;
+    padding: .5em 2em;
+}
+.controles .btn-default i{
+
+    padding-right: .5em;
+    padding-left: .5em;
+}
+
+.container.tabla table{
+
+    color: #064D8D;
+    margin-bottom: 0;
+}
+
+.container.tabla{
+
+    margin-top: 3em;
+    margin-bottom: 3em;
+    padding: 2em;
+    background-color: #fff;
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.container.tabla thead{
+
+    font-weight: 600;
+    border: unset;
+    letter-spacing: 0;
+}
+
+.container.tabla tbody{
+
+    background-color: #F8F8F8;
+}
 .tabpanel {
     background-image: url("images/bg_tabpanel_gris.png");
     background-repeat: no-repeat;

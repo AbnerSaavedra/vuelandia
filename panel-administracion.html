@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Panel de administración</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">	
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+		<div class="wrapper d-flex align-items-stretch">
+			<nav id="sidebar">
+	  		<div class="text-center">
+	  			<div class="iconos-sidebar">
+                      <button type="button" class="botton-transparent cancel" id="sidebarCollapse">
+                        <img src="images/cancel.png" alt="">
+                      </button>
+                      <div>
+                        &nbsp;|&nbsp;
+                      </div>
+                      <div class="avion-inclinada">
+                        <img src="images/icon-01.png" alt="">
+                      </div>
+	  			</div>
+	  		</div>
+        <ul class="list-unstyled components mb-5">
+          <li>
+            <a href="#"><span>01</span> Reservations</a>
+          </li>
+          <li>
+              <a href="#"><span>02</span> Reports</a>
+          </li>
+          <li>
+            <a href="#"><span>03</span> Admin</a>
+              <ul class="lista-interna">
+                <li>
+                    <a href="">
+                        Markups
+                    </a>
+                    <ul class="lista-interna">
+                        <li>
+                            <a href="">
+                                Fare rules
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="">
+                        Black list
+                    </a>
+                </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#"><span>04</span> Users</a>
+          </li>
+          <li>
+            <a href="#"><span>05</span> Invoices</a>
+          </li>
+        </ul>
+
+        <div class="logo-sidebar">
+            <img src="images/logo.png" alt="">
+        </div>
+    	</nav>
+
+        <!-- Page Content  -->
+      <div id="content">
+        <div class="content page">
+            <div class="header">
+                <div class="container-fluid">
+                    <div class="header-admin">
+                            <div class="menu-left">
+                                    <button style="margin-top: .5em;" type="button" class="menu-admin" id="sidebarDisplay"></button>
+                                <div style="height: 2em;
+                                background-color: #fff;
+                                width: 1px;">
+                                </div>
+                                <div>
+                                    <a href="http://www.plan-d.es/dev/vuelandia/" class="logo-admin animation fadeInLeft" data-animation-offset="100" >
+                                        <img src="images/logo.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        <div>
+                            <a href="" class=" login-admin button bold fs12">LOGIN</a>
+                        </div>
+                    </div>
+                    <div class="container">
+
+                        <div class="breadcrumbs">
+                            <span>
+                                Nombre de usuario
+                            </span>
+                            <span>
+                                |
+                            </span>
+                            <span>
+                                Booking list
+                            </span>
+                        </div>
+                        <div class="title">
+                            <h1>
+                                Booking list <span>xvue</span>
+                            </h1>
+                        </div>
+
+                    </div>
+                </div>
+            </div> 
+            <div class="container controles">
+                <button class="btn btn-default">
+                    <i class="fa fa-chevron-left"></i> VOLVER
+                 </button>
+                <div class="filtros">
+                    <select name="filtro1" id="filtro1">
+                        <option value="">Filtro 1</option>
+                    </select>
+                    <select name="filtro2" id="filtro2">
+                        <option value="">Filtro 2</option>
+                    </select>
+                    <select name="filtro3" id="filtro3">
+                        <option value="">Filtro 3</option>
+                    </select>
+                    <select name="filtro4" id="filtro4">
+                        <option value="">Filtro 4</option>
+                    </select>
+                    <button class="btn btn-default">
+                        Reset
+                        <i class="fa fa-refresh"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="container tabla">
+                <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">N<sup>°</sup> </th>
+                        <th scope="col">Agency</th>
+                        <th scope="col">Destination</th>
+                        <th scope="col">Type</th>
+                        <th scope="col">Booking date</th>
+                        <th scope="col">Start date</th>
+                        <th scope="col">Passenger</th>
+                        <th scope="col">Total</th>
+                        <th scope="col">To pay</th>
+                        <th scope="col">Stats</th>
+                        <th scope="col">Act</th>
+                      </tr>
+                    </thead>
+                    <tbody class="table-bordered">
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                        <td>@mdo</td>
+                        <td>@mdo</td>
+                        <td>@mdo</td>
+                        <td>@mdo</td>
+                        <td>@mdo</td>
+                        <td>@mdo</td>
+                        <td>@mdo</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                        <td>@fat</td>
+                        <td>@fat</td>
+                        <td>@fat</td>
+                        <td>@fat</td>
+                        <td>@fat</td>
+                        <td>@fat</td>
+                        <td>@fat</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Larry the Bird</td>
+                        <td>Larry the Bird</td>
+                        <td>@twitter</td>
+                        <td>@twitter</td>
+                        <td>@twitter</td>
+                        <td>@twitter</td>
+                        <td>@twitter</td>
+                        <td>@twitter</td>
+                        <td>@twitter</td>
+                        <td>@twitter</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                        <td>@mdo</td>
+                        <td>@mdo</td>
+                        <td>@mdo</td>
+                        <td>@mdo</td>
+                        <td>@mdo</td>
+                        <td>@mdo</td>
+                        <td>@mdo</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                        <td>@fat</td>
+                        <td>@fat</td>
+                        <td>@fat</td>
+                        <td>@fat</td>
+                        <td>@fat</td>
+                        <td>@fat</td>
+                        <td>@fat</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Larry the Bird</td>
+                        <td>Larry the Bird</td>
+                        <td>@twitter</td>
+                        <td>@twitter</td>
+                        <td>@twitter</td>
+                        <td>@twitter</td>
+                        <td>@twitter</td>
+                        <td>@twitter</td>
+                        <td>@twitter</td>
+                        <td>@twitter</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+        </div> 
+        <h2 class="mb-4">Sidebar #09</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </div>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
