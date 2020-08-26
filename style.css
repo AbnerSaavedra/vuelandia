@@ -469,6 +469,7 @@ a:hover .box {
     color: #769bbd !important;
     margin-left: 50px;
     position: relative;
+    text-decoration: underline;
 }
 
 .copyright a i {
@@ -627,6 +628,13 @@ a:hover .box {
     margin-bottom: 5em;
 }
 
+.iconos-sidebar span{
+
+    font-size: 2em;
+    color: #E37700;
+    line-height: 1
+}
+
 .iconos-sidebar .avion-inclinada{
 
     width: 13%;
@@ -694,6 +702,15 @@ a:hover .box {
     width: 1px;
 }
 
+#sidebar .vr{
+
+    height: 2em;
+    background-color: #485C6B;
+    width: 1px;
+    margin-left: .5em;
+    margin-right: .5em;
+}
+
 @media (max-width: 992px){
 
     .content.page .controles{
@@ -744,7 +761,7 @@ a:hover .box {
         width: 50%;
         margin-top: 2em;
         font-size: .8em;
-        background-size: 15%;
+        background-size: 6%;
     }
 
     .content.page .controles .back{
@@ -832,7 +849,7 @@ a:hover .box {
 
 .container.tabla thead{
 
-    font-weight: 600;
+    font-weight: 700;
     border: unset;
     letter-spacing: 0;
 }
