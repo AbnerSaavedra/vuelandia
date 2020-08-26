@@ -13,73 +13,70 @@
   </head>
   <body>
 		<div class="wrapper d-flex align-items-stretch">
-			<nav id="sidebar">
-	  		<div class="text-center">
-	  			<div class="iconos-sidebar">
-                      <button type="button" class="botton-transparent cancel" id="sidebarCollapse">
-                        <img src="images/cancel.png" alt="">
-                      </button>
-                      <div>
-                        &nbsp;|&nbsp;
-                      </div>
-                      <div class="avion-inclinada">
-                        <img src="images/icon-01.png" alt="">
-                      </div>
-	  			</div>
-	  		</div>
-        <ul class="list-unstyled components mb-5">
-          <li>
-            <a href="#"><span>01</span> Reservations</a>
-          </li>
-          <li>
-              <a href="#"><span>02</span> Reports</a>
-          </li>
-          <li>
-            <a href="#"><span>03</span> Admin</a>
-              <ul class="lista-interna">
-                <li>
-                    <a href="">
-                        Markups
-                    </a>
-                    <ul class="lista-interna">
-                        <li>
-                            <a href="">
-                                Fare rules
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="">
-                        Black list
-                    </a>
-                </li>
-              </ul>
-          </li>
-          <li>
-            <a href="#"><span>04</span> Users</a>
-          </li>
-          <li>
-            <a href="#"><span>05</span> Invoices</a>
-          </li>
-        </ul>
-
-        <div class="logo-sidebar">
-            <img src="images/logo.png" alt="">
-        </div>
-    	</nav>
-
-        <!-- Page Content  -->
+      <!-- Page Content  -->
       <div id="content">
         <div class="content page">
+          <nav id="sidebar">
+            <div class="text-center">
+              <div class="iconos-sidebar">
+                          <button type="button" class="botton-transparent cancel" id="sidebarCollapse">
+                            <img src="images/cancel.png" alt="">
+                          </button>
+                          <div>
+                            &nbsp;|&nbsp;
+                          </div>
+                          <div class="avion-inclinada">
+                            <img src="images/icon-01.png" alt="">
+                          </div>
+              </div>
+            </div>
+            <ul class="list-unstyled components mb-5">
+              <li>
+                <a href="#"><span>01</span> Reservations</a>
+              </li>
+              <li>
+                  <a href="#"><span>02</span> Reports</a>
+              </li>
+              <li>
+                <a href="#"><span>03</span> Admin</a>
+                  <ul class="lista-interna">
+                    <li>
+                        <a href="">
+                            Markups
+                        </a>
+                        <ul class="lista-interna">
+                            <li>
+                                <a href="">
+                                    Fare rules
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">
+                            Black list
+                        </a>
+                    </li>
+                  </ul>
+              </li>
+              <li>
+                <a href="#"><span>04</span> Users</a>
+              </li>
+              <li>
+                <a href="#"><span>05</span> Invoices</a>
+              </li>
+            </ul>
+    
+            <div class="logo-sidebar">
+                <img src="images/logo.png" alt="">
+            </div>
+          </nav>
             <div class="header">
                 <div class="container-fluid">
                     <div class="header-admin">
                             <div class="menu-left">
                                     <button style="margin-top: .5em;" type="button" class="menu-admin" id="sidebarDisplay"></button>
-                                <div style="height: 2em;
-                                background-color: #fff;
-                                width: 1px;">
+                                <div class="vr">
                                 </div>
                                 <div>
                                     <a href="http://www.plan-d.es/dev/vuelandia/" class="logo-admin animation fadeInLeft" data-animation-offset="100" >
@@ -114,8 +111,9 @@
                 </div>
             </div> 
             <div class="container controles">
-                <button class="btn btn-default">
-                    <i class="fa fa-chevron-left"></i> VOLVER
+                <button class="btn btn-default back">
+                    <!-- <i class="fa fa-chevron-left"></i>  -->
+                    VOLVER
                  </button>
                 <div class="filtros">
                     <select name="filtro1" id="filtro1">
@@ -130,22 +128,22 @@
                     <select name="filtro4" id="filtro4">
                         <option value="">Filtro 4</option>
                     </select>
-                    <button class="btn btn-default">
+                    <button class="btn btn-default reset">
                         Reset
-                        <i class="fa fa-refresh"></i>
+                        <!-- <i class="fa fa-refresh"></i> -->
                     </button>
                 </div>
             </div>
 
             <div class="container tabla">
-                <table class="table">
+                <table class="table table-reponsive">
                     <thead>
                       <tr>
                         <th scope="col">N<sup>°</sup> </th>
                         <th scope="col">Agency</th>
                         <th scope="col">Destination</th>
                         <th scope="col">Type</th>
-                        <th scope="col">Booking date</th>
+                        <th scope="col">Booking date <i class="fa fa-chevron-down"></i></th>
                         <th scope="col">Start date</th>
                         <th scope="col">Passenger</th>
                         <th scope="col">Total</th>
@@ -156,85 +154,139 @@
                     </thead>
                     <tbody class="table-bordered">
                       <tr>
-                        <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
-                        <td>@mdo</td>
-                        <td>@mdo</td>
-                        <td>@mdo</td>
-                        <td>@mdo</td>
-                        <td>@mdo</td>
-                        <td>@mdo</td>
-                        <td>@mdo</td>
+                        <td scope="row">24197</td>
+                        <td>The Travel Company</td>
+                        <td>Spain</td>
+                        <td>H + M</td>
+                        <td>08/02/2019 15:30h</td>
+                        <td>08/02/2019</td>
+                        <td>Petronella Joanna Henrica Huijbregts</td>
+                        <td><strong>515,64&euro;</strong></td>
+                        <td>55,80&euro;</td>
+                        <td>
+                          <div class="progress green">
+                            <span class="progress-left">
+                              <span class="progress-bar"></span>
+                            </span>
+                            <span class="progress-right">
+                              <span class="progress-bar"></span>
+                            </span>
+                            <div class="progress-value">...gimme a sec</div>
+                          </div>
+                        </td>
+                        <td class="act"><a href=""><img src="images/arrow_down_01.png" alt=""></a></td>
                       </tr>
                       <tr>
-                        <th scope="row">2</th>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
-                        <td>@fat</td>
-                        <td>@fat</td>
-                        <td>@fat</td>
-                        <td>@fat</td>
-                        <td>@fat</td>
-                        <td>@fat</td>
-                        <td>@fat</td>
-                        <td>@fat</td>
+                        <td scope="row">35689</td>
+                        <td>The Travel Company</td>
+                        <td>England</td>
+                        <td>H + M</td>
+                        <td>26/10/2019 14:58h</td>
+                        <td>26/10/2019</td>
+                        <td>Armand de la Rie</td>
+                        <td><strong>129,64&euro;</strong></td>
+                        <td>55,80&euro;</td>
+                        <td>
+                          <div class="progress blue-green">
+                            <span class="progress-left">
+                              <span class="progress-bar"></span>
+                            </span>
+                            <span class="progress-right">
+                              <span class="progress-bar"></span>
+                            </span>
+                            <div class="progress-value">...gimme a sec</div>
+                          </div>
+                        </td>
+                        <td class="act"><select name="" id=""></select></td>
                       </tr>
                       <tr>
-                        <th scope="row">3</th>
-                        <td>Larry the Bird</td>
-                        <td>Larry the Bird</td>
-                        <td>@twitter</td>
-                        <td>@twitter</td>
-                        <td>@twitter</td>
-                        <td>@twitter</td>
-                        <td>@twitter</td>
-                        <td>@twitter</td>
-                        <td>@twitter</td>
-                        <td>@twitter</td>
+                        <td scope="row">45783</td>
+                        <td>The Travel Company</td>
+                        <td>Netherlands</td>
+                        <td>P</td>
+                        <td>06/11/2019 15:33h</td>
+                        <td>06/11/2019</td>
+                        <td>Simon Visscher</td>
+                        <td><strong>515,64&euro;</strong></td>
+                        <td>55,80&euro;</td>
+                        <td>
+                          <div class="progress green">
+                            <span class="progress-left">
+                              <span class="progress-bar"></span>
+                            </span>
+                            <span class="progress-right">
+                              <span class="progress-bar"></span>
+                            </span>
+                            <div class="progress-value">...gimme a sec</div>
+                          </div>
+                        </td>
+                        <td class="act"><a href=""><img src="images/arrow_down_01.png" alt=""></a></td>
                       </tr>
                       <tr>
-                        <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
-                        <td>@mdo</td>
-                        <td>@mdo</td>
-                        <td>@mdo</td>
-                        <td>@mdo</td>
-                        <td>@mdo</td>
-                        <td>@mdo</td>
-                        <td>@mdo</td>
+                        <td scope="row">69374</td>
+                        <td>The Travel Company</td>
+                        <td>Germany</td>
+                        <td>H + M</td>
+                        <td>13/08/2019 12:47h</td>
+                        <td>13/08/2019</td>
+                        <td>Petronella Joanna Henrica Huijbregts</td>
+                        <td><strong>515,64&euro;</strong></td>
+                        <td>55,80&euro;</td>
+                        <td>
+                          <div class="progress orange">
+                            <span class="progress-left">
+                              <span class="progress-bar"></span>
+                            </span>
+                            <span class="progress-right">
+                              <span class="progress-bar"></span>
+                            </span>
+                            <div class="progress-value">...gimme a sec</div>
+                          </div>
+                        </td>
+                        <td class="act"><a href=""><img src="images/arrow_down_01.png" alt=""></a></td>
                       </tr>
                       <tr>
-                        <th scope="row">2</th>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
-                        <td>@fat</td>
-                        <td>@fat</td>
-                        <td>@fat</td>
-                        <td>@fat</td>
-                        <td>@fat</td>
-                        <td>@fat</td>
-                        <td>@fat</td>
-                        <td>@fat</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">3</th>
-                        <td>Larry the Bird</td>
-                        <td>Larry the Bird</td>
-                        <td>@twitter</td>
-                        <td>@twitter</td>
-                        <td>@twitter</td>
-                        <td>@twitter</td>
-                        <td>@twitter</td>
-                        <td>@twitter</td>
-                        <td>@twitter</td>
-                        <td>@twitter</td>
+                        <td scope="row">14935</td>
+                        <td>The Travel Company</td>
+                        <td>Switzerland</td>
+                        <td>C + M</td>
+                        <td>30/11/2019 13:00h</td>
+                        <td>30/11/2019</td>
+                        <td>Petronella Joanna Henrica Huijbregts</td>
+                        <td><strong>1586,64&euro;</strong></td>
+                        <td>55,80&euro;</td>
+                        <td>
+                          <div class="progress red">
+                            <span class="progress-left">
+                              <span class="progress-bar"></span>
+                            </span>
+                            <span class="progress-right">
+                              <span class="progress-bar"></span>
+                            </span>
+                            <div class="progress-value">...gimme a sec</div>
+                          </div>
+                        </td>
+                        <td class="act"><a href=""><img src="images/arrow_down_01.png" alt=""></a></td>
                       </tr>
                     </tbody>
                   </table>
+            </div>
+
+            <div class="copyright">
+              <div class="container">
+                <div class="row">
+                  <div class="col col-md-10 col-12">
+                    <span class="regular fs12 lh32">© 2019 Vuelandia. All Rights Reserved</span>      <a class="regular lnk fs12 lh32" href="">Terms and conditions<i></i></a>      <a class="regular lnk fs12 lh32" href="">Privacy statement<i></i></a>
+                  </div>
+                  <div class="col col-md-2">
+                    <div class="social">
+                      <a href="" title="Facebook" class="facebook"></a>
+                      <a href="" title="Twitter" class="twitter"></a>
+                      <a href="" title="Google +" class="google"></a>
+                    </div>
+                  </div>
+                </div>	
+              </div>
             </div>
         </div> 
         <h2 class="mb-4">Sidebar #09</h2>
