@@ -8188,11 +8188,11 @@ h1, h2, h3, h4, h5,
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-width: 300px;
-  max-width: 300px;
-  background-image: url("../images/background-page.png");
+  min-width: 270px;
+  max-width: 270px;
+  background-image: url("../images/fondo-sidebarPanelAdm.jpeg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position-y: revert;
   color: #064D8D;
   -webkit-transition: all 0.3s;
@@ -8245,10 +8245,17 @@ h1, h2, h3, h4, h5,
       padding: 10px 30px;
       background: #2f89fc; }
   #sidebar ul.components {
-    padding: 2em; }
+    width: 95%;
+    padding: 2em;
+    padding-left: 1.5em;
+   }
   #sidebar ul li {
     font-size: 16px; 
-    font-weight: 600;
+    font-weight: 700;
+  }
+  #sidebar ul li span{
+    font-weight: 500;
+    margin-right: 1em;
   }
     #sidebar ul li > ul {
       margin-left: 10px; }
@@ -8292,6 +8299,7 @@ h1, h2, h3, h4, h5,
         }
       #sidebar ul.lista-interna li a{
         border-bottom: unset;
+        padding-bottom: 0;
       }
   @media (max-width: 991.98px) {
     #sidebar {
